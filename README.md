@@ -47,12 +47,13 @@ npx serve public -l 8000             # or: python3 -m http.server 8000 --directo
 
 ```
 build.mjs                 generator: page template, hub, thank-you, 404, CSV/MD exports
+fetch-assets.mjs          pulls attorney headshots + logo from wilshirelawfirm.com into assets/img/ (run from a machine with internet)
 content/site.json         firm-wide config: phones, stats, awards, attorneys, form backend, GTM, disclaimers, statutes
 content/offices.json      regions → offices (address, phone) → surrounding cities each office serves
 content/practices/*.json  one file per page type: all copy, form qualifiers, results, FAQs
 assets/css/lp.css         design system (mobile-first, system fonts, navy/gold brand)
 assets/js/lp.js           ~5KB runtime: ValueTrack/UTM capture, ?kw= headline swap, 3-step form, dataLayer events
-assets/img/               logo.svg, favicon.svg, attorneys/ (drop <key>.jpg headshots here)
+assets/img/               logo.svg (placeholder), favicon.svg, attorneys/ (headshots: <key>.jpg|png|webp)
 public/                   generated output — the deployable site
 ```
 

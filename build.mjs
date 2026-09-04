@@ -82,7 +82,14 @@ const I = {
 const benefitIcon = t => /confidential/i.test(t) ? I.lock : /compassion/i.test(t) ? I.heart : /espa/i.test(t) ? I.chat : /free/i.test(t) ? I.doc : I.shield;
 
 function logoHtml(){
+  // Official wordmark wins when present (assets/img/logo.png|webp|jpg, or an SVG wider than it is tall);
+  // otherwise the placeholder monogram + text wordmark is used.
+  const raster = [".png", ".webp", ".jpg"].find(x => existsSync(join(ROOT, "assets/img/logo" + x)));
+  if (raster) return `<a class="logo" href="#top" aria-label="${e(site.firm_name)}"><img class="logo-img" src="/assets/img/logo${raster}" alt="${e(site.firm_name)}" height="40"></a>`;
   const svg = readFileSync(join(ROOT, "assets/img/logo.svg"), "utf8").replace(/<\?xml[^>]*>/, "");
+  const vb = svg.match(/viewBox="[\d.\s-]*?([\d.]+)\s+([\d.]+)"/);
+  const wide = vb && parseFloat(vb[1]) > parseFloat(vb[2]) * 1.6;
+  if (wide) return `<a class="logo" href="#top" aria-label="${e(site.firm_name)}"><img class="logo-img" src="/assets/img/logo.svg" alt="${e(site.firm_name)}" height="40"></a>`;
   return `<a class="logo" href="#top" aria-label="${e(site.firm_name)}">${svg}<span class="logo-txt"><b>Wilshire Law Firm</b><span>${e(site.firm_tagline)}</span></span></a>`;
 }
 const LOGO = logoHtml();
@@ -103,8 +110,8 @@ function tokens(str, geo) {
 }
 function attorneyCard(key){
   const a = site.attorneys[key]; if (!a) return "";
-  const photo = join(ROOT, "assets/img/attorneys", key + ".jpg");
-  const av = existsSync(photo) ? `<img src="/assets/img/attorneys/${key}.jpg" alt="${e(a.name)}" width="96" height="96" loading="lazy">` : e(a.initials);
+  const ext = [".jpg", ".jpeg", ".png", ".webp"].find(x => existsSync(join(ROOT, "assets/img/attorneys", key + x)));
+  const av = ext ? `<img src="/assets/img/attorneys/${key}${ext}" alt="${e(a.name)}" width="96" height="96" loading="lazy">` : e(a.initials);
   return `<div class="att"><div class="av">${av}</div><div><b>${e(a.name)}</b><span>${e(a.title)}</span></div></div>`;
 }
 function telLink(ph, cls, loc, inner){ return `<a class="${cls} js-tel" href="tel:${ph.tel}" data-loc="${loc}">${inner}</a>`; }

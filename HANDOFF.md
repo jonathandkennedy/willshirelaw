@@ -14,7 +14,13 @@
 - [ ] **Claims to verify with the firm** (all sourced in `research/firm-dossier.md`, but the firm's own site was unreachable from the build environment): "$3B+ recovered"; "59 of the top 100 personal injury settlements in California in 2024"; the case results ($36M Fresno, $35M truck verdict, $28.7M pedestrian, $18.5M motorcycle, $17.12M bus); "Partner Arrash Fattahi: $75M+ in employment settlements since 2023 / $45M+ in 2025"; the 2025 class/PAGA verdict; Tier 1 L&E (Best Law Firms 2026); Chargers partnership still current. Edit any claim in `content/practices/*.json` or `content/site.json` and rebuild.
 - [ ] **Testimonials** are verbatim Google reviews from the firm's Los Angeles profile (pulled 2026-09-04, reviewer names as displayed on Google). Confirm the firm is comfortable quoting them (client permission per bar rules); swap any in the practice JSON files.
 - [ ] **Privacy policy URL** (`site.privacy_url`) must resolve — it's linked from the TCPA consent line on every form.
-- [ ] **Attorney headshots.** Drop `assets/img/attorneys/saadian.jpg`, `yslas.jpg`, `fattahi.jpg` (square, ≥200px) and rebuild — cards switch from initials to photos automatically. Also drop the firm's official logo over `assets/img/logo.svg` (a placeholder "W" monogram in the firm's navy/gold is used now).
+- [ ] **Attorney headshots + official logo.** The Claude Code cloud sandbox cannot reach wilshirelawfirm.com (every non-GitHub/npm host is blocked by the environment's network policy), so pull them from a normal machine:
+  ```bash
+  node fetch-assets.mjs        # scrapes /legal-team/ for Saadian, Yslas, Fattahi, Marquez headshots + the site logo
+  node build.mjs               # attorney cards switch from initials to photos; header uses the real wordmark
+  git add assets public && git commit -m "Add firm assets" && git push
+  ```
+  Or drop files by hand: `assets/img/attorneys/<saadian|yslas|fattahi|marquez>.<jpg|png|webp>` (square, ≥200px) and `assets/img/logo.<png|svg|webp>` (a wide wordmark replaces the placeholder "W" monogram automatically). Alternatively give this session an environment whose network policy allows wilshirelawfirm.com (see https://code.claude.com/docs/en/claude-code-on-the-web) and ask it to run the script.
 - [ ] **Domain.** Deploy to a subdomain of the firm's domain (e.g. `results.wilshirelawfirm.com`, CNAME → host) and set `site.base_url` to match, then rebuild so canonical URLs and the CSV are right. Never run ads to `*.vercel.app` / `*.netlify.app` — display URL must match the final URL domain.
 
 **Recommended**

@@ -30,6 +30,8 @@ b,strong{font-weight:800}
 .hd-in{max-width:1180px;margin:0 auto;padding:10px 20px;display:flex;align-items:center;justify-content:space-between;gap:12px}
 .logo{display:inline-flex;align-items:center;gap:10px;text-decoration:none;color:var(--navy)}
 .logo svg{height:34px;width:auto}
+.logo-img{height:40px;width:auto;max-width:240px}
+@media(max-width:700px){.logo-img{height:32px;max-width:170px}}
 .logo-txt{display:flex;flex-direction:column;line-height:1}
 .logo-txt b{font-size:.98rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase}
 .logo-txt span{font-size:.58rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-ink);margin-top:4px}
