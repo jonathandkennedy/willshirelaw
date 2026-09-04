@@ -1,0 +1,85 @@
+{
+  "slug": "wrongful-termination-lawyer",
+  "group": "employment",
+  "name": "Wrongful Termination",
+  "kw_noun": "Wrongful Termination",
+  "title_noun": "Wrongful Termination Lawyers",
+  "meta_title": "{City} Wrongful Termination Lawyers | No Fee Unless We Win | Wilshire Law Firm",
+  "meta_description": "Fired illegally in {City}? Wilshire Law Firm's wrongful termination attorneys have recovered $3B+ for clients. Free 24/7 case review. No fee unless we win.",
+  "eyebrow": "{City} Wrongful Termination Attorneys · Free 24/7 Case Review",
+  "h1": {"pre": "Fired Illegally in ", "post": "? Make Them Pay for It."},
+  "h1_state": {"pre": "Fired Illegally in ", "post": "? Make Them Pay for It."},
+  "hero_sub": "Losing your job wasn't the end of the story. It might be the start of a case — and our wrongful termination lawyers cost you nothing unless we win.",
+  "benefits": ["No Fee Unless We Win", "Free & Confidential Review", "Se Habla Español"],
+  "form": {
+    "title": "Was Your Firing Illegal?",
+    "sub": "Free & confidential · No obligation · 60 seconds",
+    "q1": {"key": "reason", "label": "Why do you believe you were fired?", "options": ["After I reported a problem or complained", "After medical leave, an injury, or pregnancy", "Because of my age, race, gender, disability, or religion", "No real reason was given", "I'm not sure"]},
+    "q2": {"key": "when", "label": "When were you let go?", "options": ["Within the last 30 days", "1–6 months ago", "6–12 months ago", "Over a year ago"]}
+  },
+  "form_quote": {"text": "My boss denied my request for extended leave for a major surgery. I tried to fight it but got fired. Wilshire quickly secured a settlement for me.", "by": "Jacob Riley · Google Review"},
+  "urgency": {
+    "eyebrow": "What They're Counting On",
+    "h": "They're Betting You'll Just Go Away",
+    "sub": "Employers fire people illegally every day for one reason: most people never call a lawyer. Don't be most people.",
+    "cards": [
+      {"t": "\"At-will\" is not a magic word", "p": "Yes, California is an at-will state. No, that doesn't mean they can fire you for reporting harassment, taking medical leave, being pregnant, being over 40, or refusing to break the law. That's called wrongful termination — and it pays."},
+      {"t": "The severance offer is a trap", "p": "Two weeks' pay in exchange for signing away every claim you have? Employers don't offer severance out of kindness. They offer it because they know what a lawyer would find."},
+      {"t": "Paper trails vanish", "p": "The glowing reviews before you complained. The schedule change after. The emails that prove the timing. Every week you wait, more of it disappears. A preservation letter from us stops the shredding."}
+    ]
+  },
+  "results": [
+    {"amount": "$3B+", "label": "Recovered for clients", "tag": "Firm-wide"},
+    {"amount": "$75M+", "label": "Employment settlements by one partner since 2023", "tag": "Employment dept."},
+    {"amount": "Tier 1", "label": "Labor & Employment Litigation, Los Angeles", "tag": "Best Law Firms 2026"},
+    {"amount": "4.9★", "label": "2,500+ Google reviews", "tag": "Clients who'd recommend us"}
+  ],
+  "result_highlight": "When an employer fires someone for an illegal reason, California law lets you recover <b>back pay, front pay, emotional-distress damages, punitive damages, and your attorney's fees</b>. The company that thought firing you was cheap is about to learn otherwise.",
+  "value": {
+    "eyebrow": "What You Could Recover",
+    "h": "Wrongful Termination Isn't Just \"Your Old Paycheck\"",
+    "sub": "People think a firing case is worth a few weeks of wages. Here's what the law actually puts on the table.",
+    "items": [
+      {"t": "Back pay", "p": "Every dollar you would have earned from the day they fired you until your case resolves — salary, overtime, commissions, bonuses, and the benefits that came with them."},
+      {"t": "Front pay", "p": "The income you'll keep losing while you find comparable work. For senior roles or specialized careers, this is often the biggest number in the case."},
+      {"t": "Emotional distress", "p": "Being fired illegally is humiliating and terrifying. Juries in California regularly award significant damages for what it did to your health, your family, and your peace of mind."},
+      {"t": "Punitive damages", "p": "When a company fires you with malice — to punish you for speaking up, or to dodge a disability accommodation — the jury can award punitive damages meant to hurt."},
+      {"t": "Attorney's fees, paid by them", "p": "Under the Fair Employment and Housing Act and other California laws, the employer pays your attorney's fees when you win. Which is exactly why we charge you nothing up front."}
+    ]
+  },
+  "offer": {
+    "h": "The Free Case Review — What You Actually Get",
+    "includes": ["A confidential look at why you were really fired, by an employment lawyer's team", "A straight answer: do you have a case, and what's it worth?", "What to do about the severance offer, the unemployment claim, and the reference", "We front every cost of investigating and filing"],
+    "guarantee": "You pay <b>nothing</b> unless we win. You just lost your income — the last thing you need is a legal bill. If we don't recover money for you, our fee is zero."
+  },
+  "how": [
+    {"t": "Tell us what happened", "p": "Call 24/7 or send the 60-second form. A real person hears the whole story — the timing, the excuses, the people involved — and tells you where you stand."},
+    {"t": "We build the case", "p": "Preservation demand. Personnel file request. Witness interviews. We handle every letter from the company's lawyers while you focus on your next chapter."},
+    {"t": "You get paid", "p": "We negotiate for the maximum — and take them to trial if they won't pay it. Employers who see our name on the letterhead know we don't bluff."}
+  ],
+  "why": {
+    "eyebrow": "Why Employers Settle With Us",
+    "h": "Tier 1 Employment Litigators. Trial-Tested. Paid Only When You Are.",
+    "paras": [
+      "Wilshire Law Firm's employment department is led by <b>John G. Yslas</b>, a Senior Partner with three decades of experience, alongside Partner <b>Arrash T. Fattahi</b>, who has secured more than $75 million in employment settlements since 2023. Best Law Firms ranks the firm <b>Tier 1</b> in Los Angeles for Labor & Employment Litigation.",
+      "Founded in 2007 by <b>Bobby Saadian</b>, the firm has grown to 100+ attorneys and 500+ legal professionals across 20 offices. When your former employer's lawyers see who's representing you, the conversation changes."
+    ],
+    "attorneys": ["yslas", "fattahi", "saadian"],
+    "mult": {"big": "$0", "text": "<b>What you pay up front.</b> Your former employer is paying their lawyers by the hour. You'll never see a bill from us unless we win."},
+    "chips": ["Tier 1 · Labor & Employment", "Trial-tested — we don't bluff", "100+ attorneys · 20 offices", "Se habla español"]
+  },
+  "testimonials": [
+    {"text": "My boss denied my request for extended leave for a major surgery. I tried to fight it but got fired. A friend, who had a similar experience, recommended Wilshire Law. They quickly secured a settlement for me. Hopefully my former employer learned from his mistake.", "by": "Jacob Riley · Google Review"},
+    {"text": "My boss fired me after learning that I was pregnant. Wilshire took over my case and got him to hand over a settlement for pregnancy discrimination. I was able to take a full mat leave with my baby, and the money covered all expenses.", "by": "Shaun Everleigh · Google Review"},
+    {"text": "I got fired for reporting harassment from a co-worker. The team at Wilshire Law stepped in, fought for justice, and got me a quick settlement. I'm thankful for how smoothly they handled everything.", "by": "Fredrick Kuhn · Google Review"}
+  ],
+  "faq": [
+    {"q": "What counts as wrongful termination in California?", "a": "Being fired for an illegal reason — because of a protected characteristic (age 40+, race, gender, pregnancy, disability, religion, sexual orientation), in retaliation for complaining about harassment, discrimination, unpaid wages or safety violations, for taking protected medical or family leave, for refusing to do something illegal, or in breach of a contract. If the timing feels suspicious, it probably is."},
+    {"q": "They gave me a reason. Doesn't that end it?", "a": "No. Employers almost always give a reason — \"performance,\" \"restructuring,\" \"budget.\" The question is whether it's the real reason. Years of good reviews followed by a sudden write-up after you complained is exactly what juries see through. We know how to prove pretext."},
+    {"q": "Should I sign the severance agreement?", "a": "Not before a free review. Severance agreements release every claim you have. Once we know what your case is worth, we can often negotiate a far larger severance — or turn a small offer into a real settlement."},
+    {"q": "How long do I have to file?", "a": "{SOL}"},
+    {"q": "How much is my wrongful termination case worth?", "a": "It depends on your pay, how long you were there, how hard it is to replace your job, and how badly they behaved. Cases range from a few months' wages to seven figures. A free case review gives you a realistic range before you sign anything."},
+    {"q": "Can I still file for unemployment?", "a": "Yes — and you should. Filing for unemployment does not hurt your wrongful termination case, and if the employer contests it, what they say to the EDD often becomes evidence for us."}
+  ],
+  "final": {"h": "Fired Illegally? Get a Free Answer Today.", "p": "Open 24/7. Confidential. If we don't win, you pay nothing."}
+}

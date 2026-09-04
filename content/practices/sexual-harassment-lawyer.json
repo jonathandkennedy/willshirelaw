@@ -1,0 +1,85 @@
+{
+  "slug": "sexual-harassment-lawyer",
+  "group": "employment",
+  "name": "Sexual Harassment",
+  "kw_noun": "Sexual Harassment",
+  "title_noun": "Sexual Harassment Lawyers",
+  "meta_title": "{City} Sexual Harassment Lawyers | Confidential · No Fee Unless We Win | Wilshire Law Firm",
+  "meta_description": "Harassed at work in {City}? Wilshire Law Firm's sexual harassment attorneys handle every case confidentially and have recovered $3B+ for clients. Free 24/7 review. No fee unless we win.",
+  "eyebrow": "{City} Sexual Harassment Attorneys · Confidential 24/7 Case Review",
+  "h1": {"pre": "Harassed at Work in ", "post": "? You Don't Have to Take It. Or Prove It Alone."},
+  "h1_state": {"pre": "Harassed at Work in ", "post": "? You Don't Have to Take It. Or Prove It Alone."},
+  "hero_sub": "What happened to you was not your fault — and it was illegal. Our harassment attorneys handle every case privately, with a team that believes you from the first call. No fee unless we win.",
+  "benefits": ["100% Confidential", "No Fee Unless We Win", "Se Habla Español"],
+  "form": {
+    "title": "Tell Us What's Happening — Privately",
+    "sub": "Confidential · No obligation · A real person, not a form-bot",
+    "q1": {"key": "issue", "label": "What are you dealing with?", "options": ["Unwanted comments, advances, or touching", "Pressure for sexual favors — or a threat if I refused", "A hostile work environment", "I was punished or fired after reporting it"]},
+    "q2": {"key": "reported", "label": "Did you report it to HR or a manager?", "options": ["Yes — and nothing changed", "Yes — and things got worse", "No — I was afraid to", "I'm not sure how"]}
+  },
+  "form_quote": {"text": "I got fired for reporting harassment from a co-worker. The team at Wilshire Law stepped in, fought for justice, and got me a quick settlement.", "by": "Fredrick Kuhn · Google Review"},
+  "urgency": {
+    "eyebrow": "What You Need to Know",
+    "h": "HR Protects the Company. We Protect You.",
+    "sub": "You've been told to \"keep it professional,\" to \"not make it a thing,\" to \"let HR handle it.\" Here's what actually happens next.",
+    "cards": [
+      {"t": "\"Investigations\" that go nowhere", "p": "The company's investigation exists to create a paper record that they \"took it seriously.\" It rarely exists to fix anything. Meanwhile, the harasser is still there — and so are you."},
+      {"t": "Retaliation is the second crime", "p": "Cut hours. A sudden bad review. A transfer. A layoff \"for budget reasons\" two months after you complained. Retaliation for reporting harassment is illegal on its own — and it usually makes the case bigger, not smaller."},
+      {"t": "You do not have to quit to have a case", "p": "Many people think they need to leave first. You don't. And if the environment became so intolerable you had no choice but to resign, the law treats that as being fired."}
+    ]
+  },
+  "results": [
+    {"amount": "$3B+", "label": "Recovered for clients", "tag": "Firm-wide"},
+    {"amount": "Tier 1", "label": "Labor & Employment Litigation, Los Angeles", "tag": "Best Law Firms 2026"},
+    {"amount": "100+", "label": "Attorneys on your side", "tag": "20 offices"},
+    {"amount": "4.9★", "label": "2,500+ Google reviews", "tag": "Clients who'd recommend us"}
+  ],
+  "result_highlight": "Under California's Fair Employment and Housing Act, harassment victims can recover <b>lost wages, emotional-distress damages, punitive damages, and attorney's fees</b> — and both the company and the individual harasser can be held liable. The employer that ignored you is about to pay attention.",
+  "value": {
+    "eyebrow": "What You Could Recover",
+    "h": "The Law Puts a Price on What They Did",
+    "sub": "You're not asking for a favor. You're claiming what California law already says you're owed.",
+    "items": [
+      {"t": "Emotional distress", "p": "The anxiety before every shift. The sleepless nights. The therapy. Juries in harassment cases regularly award substantial damages for the human toll — because it's the core of the harm."},
+      {"t": "Lost wages & career damage", "p": "If you were pushed out, demoted, denied a promotion, or forced to quit — back pay, front pay, and lost benefits are all on the table."},
+      {"t": "Punitive damages", "p": "When a company knew and did nothing, or protected the harasser because he was \"valuable,\" the jury can award punitive damages designed to make sure it never happens again."},
+      {"t": "The harasser personally", "p": "In California, the individual harasser can be personally liable — not just the company. That changes how seriously everyone takes it."},
+      {"t": "Attorney's fees, paid by them", "p": "The employer pays your legal fees when you win under FEHA. Which is why the review is free and you never pay us unless we recover."}
+    ]
+  },
+  "offer": {
+    "h": "The Free, Confidential Case Review",
+    "includes": ["A private conversation with a team that has handled this before — and believes you", "A straight answer on whether what happened is legally actionable, and what it's worth", "A plan to protect you from retaliation while you're still employed", "We front every cost of investigating and filing"],
+    "guarantee": "Everything you tell us stays between us. Your employer will not hear from us until you decide. And you pay <b>nothing</b> unless we win."
+  },
+  "how": [
+    {"t": "Talk to us — privately", "p": "Call 24/7 or send the form. A real person listens to what happened, without judgment, and tells you what your options are. Nothing moves forward until you say so."},
+    {"t": "We build the case quietly", "p": "We preserve the texts, emails, and witnesses. We file with the Civil Rights Department. We handle every contact with the company's lawyers so you never have to face them alone."},
+    {"t": "They pay", "p": "We negotiate for the maximum — and take them to trial if they won't pay it. Companies settle harassment cases with us because they know we'll put the story in front of a jury."}
+  ],
+  "why": {
+    "eyebrow": "Why Clients Trust Us With This",
+    "h": "A Tier 1 Employment Team That Handles the Hard Cases",
+    "paras": [
+      "Wilshire Law Firm's employment department is led by Senior Partner <b>John G. Yslas</b>, with three decades of experience, and Partner <b>Arrash T. Fattahi</b>. Best Law Firms ranks the firm <b>Tier 1</b> in Los Angeles for Labor & Employment Litigation.",
+      "Founded in 2007 by <b>Bobby Saadian</b>, the firm has grown to 100+ attorneys and 500+ legal professionals across 20 offices. Harassment cases need discretion, experience, and the willingness to go to trial. We bring all three."
+    ],
+    "attorneys": ["yslas", "fattahi", "saadian"],
+    "mult": {"big": "$0", "text": "<b>What you pay up front.</b> Your employer is paying their lawyers by the hour to make this go away. You'll never see a bill from us unless we win."},
+    "chips": ["Confidential from the first call", "Tier 1 · Labor & Employment", "Trial-tested", "Se habla español"]
+  },
+  "testimonials": [
+    {"text": "I got fired for reporting harassment from a co-worker. The team at Wilshire Law stepped in, fought for justice, and got me a quick settlement. I'm thankful for how smoothly they handled everything.", "by": "Fredrick Kuhn · Google Review"},
+    {"text": "Wilshire Law turned a stressful workplace situation into a positive outcome. My settlement was more than I expected and the entire law team was kind and responsive.", "by": "Joseph Breeden · Google Review"},
+    {"text": "I spoke to Zaire and he helped me understand what would happen and what to expect. He was also very polite and empathetic regarding my situation, and actually listened.", "by": "Kendra Brown · Google Review"}
+  ],
+  "faq": [
+    {"q": "What counts as sexual harassment at work?", "a": "Two kinds. \"Quid pro quo\" — a boss or supervisor ties your job, raise, schedule, or promotion to sexual favors. And \"hostile work environment\" — unwanted comments, jokes, images, touching, or advances severe or frequent enough to make work miserable. It can come from a supervisor, a coworker, a customer, or a vendor. It does not have to be physical."},
+    {"q": "I never reported it. Do I still have a case?", "a": "Very possibly. Many people don't report because they're afraid — and the law understands that. Reporting can strengthen a case, but not reporting doesn't end it. Tell us what happened and we'll tell you honestly where you stand."},
+    {"q": "Will this be public?", "a": "Your consultation is completely confidential. Most cases settle privately, and settlements typically include confidentiality. We will never contact your employer until you decide you want to move forward."},
+    {"q": "How long do I have to file?", "a": "{SOL}"},
+    {"q": "I still work there. Can I really do this?", "a": "Yes. Retaliating against you for reporting harassment or contacting a lawyer is illegal and creates a second claim. We'll tell you exactly how to protect yourself — what to document, what to say, what not to sign — while your case moves forward."},
+    {"q": "What does it cost?", "a": "Nothing up front — ever. We front all costs, we only collect a fee if we recover money for you, and California law generally makes the employer pay your attorney's fees when you win."}
+  ],
+  "final": {"h": "Talk to Someone Who Believes You — Free & Confidential", "p": "Open 24/7. Private. If we don't win, you pay nothing."}
+}

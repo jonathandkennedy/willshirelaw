@@ -1,0 +1,85 @@
+{
+  "slug": "unpaid-wages-lawyer",
+  "group": "employment",
+  "name": "Unpaid Wages & Overtime",
+  "kw_noun": "Unpaid Wages",
+  "title_noun": "Unpaid Wages & Overtime Lawyers",
+  "meta_title": "{City} Unpaid Wages & Overtime Lawyers | No Fee Unless We Win | Wilshire Law Firm",
+  "meta_description": "Unpaid overtime, missed breaks, or a short final paycheck in {City}? Wilshire Law Firm's wage-and-hour attorneys have recovered $3B+ for clients. Free 24/7 review. No fee unless we win.",
+  "eyebrow": "{City} Wage & Hour Attorneys · Free 24/7 Case Review",
+  "h1": {"pre": "Is Your ", "post": " Employer Skimming Your Paycheck?"},
+  "h1_state": {"pre": "Is Your ", "post": " Employer Skimming Your Paycheck?"},
+  "hero_sub": "Unpaid overtime. Missed breaks. Off-the-clock work. A short final check. In California, every one of those comes with penalties — and you pay nothing unless we win.",
+  "benefits": ["No Fee Unless We Win", "Free & Confidential Review", "Se Habla Español"],
+  "form": {
+    "title": "How Much Are You Owed?",
+    "sub": "Free & confidential · No obligation · 60 seconds",
+    "q1": {"key": "issue", "label": "What's being taken from you?", "options": ["Unpaid overtime", "Missed meal or rest breaks", "Off-the-clock work or below minimum wage", "Misclassified as a contractor or \"exempt\"", "Final paycheck late or short"]},
+    "q2": {"key": "status", "label": "Are you still working there?", "options": ["Yes — I still work there", "No — I left or was let go", "I'm not sure what to do"]}
+  },
+  "form_quote": {"text": "I contacted them after discovering that my company was not paying overtime as required. They battled hard for me, and I ended up with an outcome that I am extremely pleased with.", "by": "Amber Rousey · Google Review"},
+  "urgency": {
+    "eyebrow": "Do the Math",
+    "h": "Wage Theft Is Bigger Than Every Other Kind of Theft Combined",
+    "sub": "A few dollars an hour doesn't sound like much. Multiply it by every shift, every week, for three years — then add the penalties California stacks on top.",
+    "cards": [
+      {"t": "It goes back three years", "p": "California lets you recover unpaid wages going back three years — four under the Unfair Competition Law. That \"small\" shortfall on every check is a very large number by now."},
+      {"t": "Penalties stack fast", "p": "One extra hour of pay for every missed meal break. Another for every missed rest break. Up to 30 days' wages if your final check was late. Penalties for inaccurate pay stubs. It adds up faster than the wages themselves."},
+      {"t": "It's illegal to fire you for asking", "p": "Retaliation for a wage complaint is a separate violation with its own damages. You're protected — and if they punish you for calling us, your case just got bigger."}
+    ]
+  },
+  "results": [
+    {"amount": "$75M+", "label": "Employment settlements by one partner since 2023", "tag": "Wage & hour · PAGA"},
+    {"amount": "$45M+", "label": "Recovered by that same partner in 2025 alone", "tag": "Wage & hour · PAGA"},
+    {"amount": "Tier 1", "label": "Labor & Employment Litigation, Los Angeles", "tag": "Best Law Firms 2026"},
+    {"amount": "$3B+", "label": "Recovered for clients", "tag": "Firm-wide"}
+  ],
+  "result_highlight": "In 2025 our wage-and-hour team, led by Senior Partner <b>John G. Yslas</b>, tried a class and PAGA action to verdict — and the employer paid a <b>multimillion-dollar settlement</b> after losing. Employers know which firms fold before trial. This isn't one of them.",
+  "value": {
+    "eyebrow": "What You Could Recover",
+    "h": "Every Violation Has a Price Tag in California",
+    "sub": "You don't have to prove they were mean. You just have to prove they didn't pay. The Labor Code does the rest.",
+    "items": [
+      {"t": "Unpaid overtime", "p": "Time-and-a-half after 8 hours in a day or 40 in a week — double time after 12. \"Salaried\" doesn't automatically mean exempt, and \"we don't pay overtime here\" isn't a policy, it's a violation."},
+      {"t": "Meal & rest break premiums", "p": "One extra hour of pay for each missed, short, or late meal break — and another hour for each missed rest break. Per day. Going back years."},
+      {"t": "Off-the-clock work", "p": "Pre-shift setup, post-shift cleanup, answering texts at home, bag checks, \"just finish this before you clock in\" — all compensable. All owed."},
+      {"t": "Misclassification", "p": "Called a contractor but treated like an employee? Called \"exempt\" but doing hourly work? You may be owed overtime, breaks, expenses, and benefits for the entire period."},
+      {"t": "Waiting-time & pay-stub penalties", "p": "Late or short final paycheck? Up to 30 days of wages as a penalty. Inaccurate pay stubs? Penalties per pay period. Plus interest, plus your attorney's fees — paid by them."}
+    ]
+  },
+  "offer": {
+    "h": "The Free Case Review — What You Actually Get",
+    "includes": ["A confidential review of your pay stubs, schedule, and job duties by a wage-and-hour lawyer's team", "A straight estimate of what you're owed — wages plus penalties", "Protection: we tell you exactly how to keep working there safely while your claim moves", "We front every cost of investigating and filing"],
+    "guarantee": "You pay <b>nothing</b> unless we win — and when we win, California law generally makes the employer pay your attorney's fees on top of what they owe you."
+  },
+  "how": [
+    {"t": "Tell us what happened", "p": "Call 24/7 or send the 60-second form. Tell us your job, your hours, and what your checks look like. A real person tells you where you stand — free and confidential."},
+    {"t": "We do the math and the fighting", "p": "We demand your time and pay records, calculate every dollar and every penalty, and handle the company's lawyers. If coworkers are being shorted the same way, we can pursue it as a class action or PAGA claim."},
+    {"t": "You get paid", "p": "We negotiate for the maximum — and take them to trial if they won't pay it. Our team has tried wage cases to verdict. Employers know it."}
+  ],
+  "why": {
+    "eyebrow": "Why Employers Settle With Us",
+    "h": "Wage & Hour Is What Our Employment Team Does All Day",
+    "paras": [
+      "Senior Partner <b>John G. Yslas</b> chairs Wilshire Law Firm's Employment Wage & Hour Class Action department with three decades of experience. Partner <b>Arrash T. Fattahi</b> focuses on wage-and-hour class actions and PAGA claims and has secured more than $75 million in settlements since May 2023 — over $45 million in 2025 alone.",
+      "Best Law Firms ranks the firm <b>Tier 1</b> in Los Angeles for Labor & Employment Litigation. Founded by <b>Bobby Saadian</b> in 2007, the firm now fields 100+ attorneys and 500+ legal professionals across 20 offices — the kind of scale that makes an employer's lawyers recommend settling."
+    ],
+    "attorneys": ["yslas", "fattahi", "saadian"],
+    "mult": {"big": "3 yrs", "text": "<b>How far back your claim can reach.</b> Unpaid wages are recoverable for three years in California — four under the Unfair Competition Law — plus penalties, interest, and attorney's fees."},
+    "chips": ["Tier 1 · Labor & Employment", "Class action & PAGA experience", "Tried to verdict", "Se habla español"]
+  },
+  "testimonials": [
+    {"text": "Excellent communication with them! I contacted them after discovering that my company was not paying overtime as required. The lawyer I worked with was pleasant, educated, and did not make me feel like I was simply another case. They battled hard for me, and I ended up with an outcome that I am extremely pleased with.", "by": "Amber Rousey · Google Review"},
+    {"text": "Wilshire Law turned a stressful workplace situation into a positive outcome. My settlement was more than I expected and the entire law team was kind and responsive.", "by": "Joseph Breeden · Google Review"},
+    {"text": "Wilshire law firm was very fast at responding to me about my case in a timely manner. They were very nice and helpful, they made sure I understood all of the facts, and I would recommend for anyone who is looking for the best — they are number one.", "by": "Angela Burch · Google Review"}
+  ],
+  "faq": [
+    {"q": "I'm salaried. Can I still get overtime?", "a": "Often, yes. A salary alone doesn't make you \"exempt.\" To be exempt in California you generally must earn at least twice the state minimum wage for full-time work AND spend most of your time on genuinely managerial, administrative, or professional duties. Assistant managers who mostly run a register, \"coordinators\" doing hourly work — these are classic misclassification cases."},
+    {"q": "I signed something saying I'm an independent contractor.", "a": "Doesn't matter. California's ABC test looks at how you actually work — who controls your hours, whether your work is the company's core business, whether you truly run your own business. A label on a form can't sign away your rights."},
+    {"q": "Can they fire me for filing a wage claim?", "a": "Retaliating against you for asserting your wage rights is illegal and creates a second, separate claim with its own damages. Everything you tell us is confidential, and your employer will not hear from us until you decide you're ready."},
+    {"q": "How long do I have to file?", "a": "{SOL}"},
+    {"q": "My coworkers are getting shorted the same way. Does that matter?", "a": "It matters a lot. When a policy shorts everyone, we can bring a class action or a PAGA (Private Attorneys General Act) claim — which changes the leverage completely. Our wage-and-hour team has taken class and PAGA actions to verdict."},
+    {"q": "What does it cost?", "a": "Nothing up front — ever. We front all costs, we only collect a fee if we recover money for you, and California law generally makes the employer pay your attorney's fees when you win."}
+  ],
+  "final": {"h": "Find Out What You're Owed — Free", "p": "Open 24/7. Confidential. If we don't win, you pay nothing."}
+}

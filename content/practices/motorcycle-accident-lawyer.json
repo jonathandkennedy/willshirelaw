@@ -1,0 +1,85 @@
+{
+  "slug": "motorcycle-accident-lawyer",
+  "group": "injury",
+  "name": "Motorcycle Accident",
+  "kw_noun": "Motorcycle Accident",
+  "title_noun": "Motorcycle Accident Lawyers",
+  "meta_title": "{City} Motorcycle Accident Lawyers | $18.5M Result · No Fee Unless We Win | Wilshire Law Firm",
+  "meta_description": "Hurt in a {City} motorcycle crash? Wilshire Law Firm has recovered $3B+ including an $18.5M motorcycle judgment. Free 24/7 case review. No fee unless we win.",
+  "eyebrow": "{City} Motorcycle Accident Attorneys · Free 24/7 Case Review",
+  "h1": {"pre": "Hurt in a ", "post": " Motorcycle Crash? They're Already Blaming the Rider."},
+  "h1_state": {"pre": "Hurt in a ", "post": " Motorcycle Crash? They're Already Blaming the Rider."},
+  "hero_sub": "Insurers assume juries don't like bikers — so they lowball riders harder than anyone. We've turned that bias into eight-figure results. No fee unless we win.",
+  "benefits": ["No Fee Unless We Win", "Free Case Review", "Se Habla Español"],
+  "form": {
+    "title": "What's Your Case Worth?",
+    "sub": "Free & confidential · No obligation · 60 seconds",
+    "q1": {"key": "when", "label": "When did the crash happen?", "options": ["Just happened", "Within the last 3 months", "3–12 months ago", "Over a year ago"]},
+    "q2": {"key": "injured", "label": "Were you injured?", "options": ["Yes — I've seen a doctor", "Yes — but not treated yet", "I'm not sure"]}
+  },
+  "form_quote": {"text": "Huge thanks to the Wilshire team after my motorcycle accident! I got a settlement that completely covered all my medical appointments, even physio.", "by": "Alexis Langston · Google Review"},
+  "urgency": {
+    "eyebrow": "What Riders Are Up Against",
+    "h": "\"I Didn't See Him\" Is Not a Defense. Insurers Use It Anyway.",
+    "sub": "The driver turned left in front of you. The insurer's first move is to argue you were speeding, lane-splitting recklessly, or \"hard to see.\" Here's how that ends.",
+    "cards": [
+      {"t": "The bias is real — and beatable", "p": "Adjusters lowball riders because they assume a jury will too. We build motorcycle cases with reconstruction experts, helmet-cam and traffic-cam footage, and witness statements that make the bias irrelevant."},
+      {"t": "Lane splitting is legal in California", "p": "It's the only state where it's explicitly legal. Insurers still try to use it against you. We know the CHP guidelines and how to show you were riding within them."},
+      {"t": "Evidence and deadlines", "p": "Traffic cameras overwrite in days. The car gets repaired. Skid marks fade. And California's filing deadline is real. The sooner we start, the stronger your case."}
+    ]
+  },
+  "results": [
+    {"amount": "$18,500,000", "label": "Motorcycle crash · serious spinal injuries", "tag": "Judgment"},
+    {"amount": "$35,000,000", "label": "Jury verdict · semi-truck collision", "tag": "Two-week trial"},
+    {"amount": "$36,000,000", "label": "Single-plaintiff settlement", "tag": "Fresno County"},
+    {"amount": "$28,700,000", "label": "Pedestrian struck by vehicle", "tag": "#1 in the U.S. · 2019"}
+  ],
+  "result_highlight": "When a rider suffered serious spinal injuries, the insurer expected a rider-blaming discount. We secured an <b>$18,500,000 judgment</b>. In 2024 the firm won <b>59 of California's top 100 injury settlements</b> — adjusters know exactly who we are.",
+  "value": {
+    "eyebrow": "What You Could Recover",
+    "h": "Motorcycle Injuries Are Severe. Your Recovery Should Match.",
+    "sub": "No steel cage, no airbags. Riders absorb the whole crash — and California law recognizes it.",
+    "items": [
+      {"t": "Every medical bill — past and future", "p": "Road rash and fractures today; surgeries, hardware, and rehab next year. We work with medical experts to price the whole road, not just the ER visit."},
+      {"t": "Lost income & earning capacity", "p": "The work you missed, and the work you can't go back to. Self-employed or gig work? We prove that too."},
+      {"t": "Pain and suffering", "p": "Months in recovery. Nerve damage. Never riding again. No cap on these damages in most California injury cases."},
+      {"t": "Your bike and gear", "p": "Total-loss value of the bike, your helmet, jacket, and everything else that got destroyed — handled by our dedicated property-damage team."},
+      {"t": "Punitive damages", "p": "Drunk driver? Texting? Road rage? Juries can award punitive damages designed to punish — on top of everything else."}
+    ]
+  },
+  "offer": {
+    "h": "Here's the Deal — and It's Free",
+    "includes": ["A free review of your crash by a motorcycle accident lawyer's team, 24/7", "A realistic range of what your case is worth — before you sign anything", "We handle every adjuster call and help coordinate your medical care, even with no health insurance", "We front every cost — reconstruction, experts, filing fees"],
+    "guarantee": "You pay <b>nothing</b> unless we win. If we don't recover money for you, our fee is zero. The only way you lose by calling is by not calling."
+  },
+  "how": [
+    {"t": "Tell us what happened", "p": "Call 24/7 or send the 60-second form. A real person hears your story and tells you where you stand. Free, no obligation."},
+    {"t": "We take over the fight", "p": "We lock down the footage and witnesses, handle every adjuster call, deal with the bike, and help coordinate medical care — while we front every cost. You focus on healing."},
+    {"t": "You get paid", "p": "We negotiate for the maximum — and take them to trial if they won't pay it. Insurers know which firms fold before trial. This isn't one of them."}
+  ],
+  "why": {
+    "eyebrow": "Why Insurers Pay Us More",
+    "h": "We Take Rider Cases to Verdict — and Insurers Know It",
+    "paras": [
+      "<b>Bobby Saadian</b> founded Wilshire Law Firm in 2007 and built it into one of the largest injury firms in California: 100+ attorneys, 500+ legal professionals, 20 offices, and more than $3 billion recovered. He's a National Trial Lawyers Top 100 attorney and past president of its Top 25 Motor Vehicle Trial Lawyers.",
+      "Best Lawyers has named the firm to \"Best Law Firms\" seven years running, and it's the Official Personal Injury Law Firm of the Los Angeles Chargers. When an adjuster sees our name on a rider's file, the \"biker discount\" disappears."
+    ],
+    "attorneys": ["saadian"],
+    "mult": {"big": "4.4x", "text": "Crash victims with a lawyer recover <b>$77,600 on average vs. $17,600</b> without one, according to a Martindale-Nolo consumer study."},
+    "chips": ["$18.5M motorcycle result", "59 of CA's top 100 settlements · 2024", "A real person answers 24/7", "Se habla español"]
+  },
+  "testimonials": [
+    {"text": "I worked with Wilshire Law Firm after I was involved in a serious motorcycle accident. The team at the LA office was quick to respond and extremely professional. They fought for me every step of the way. The results were better than I expected. Thank you!", "by": "Thomas King · Google Review"},
+    {"text": "Huge thanks to the Wilshire team in Los Angeles for being amazing after my motorcycle accident! Because of them, I got a settlement that completely covered all my medical appointments, even physio, which really sped up my recovery.", "by": "Alexis Langston · Google Review"},
+    {"text": "After my motorcycle crash I felt truly lost about how to get coverage. One call to Wilshire and I was so much more at peace, knew my options and my case was resolved smoothly. I always got a call back when I needed updates.", "by": "Owen Goodwin · Google Review"}
+  ],
+  "faq": [
+    {"q": "I was lane splitting. Do I still have a case?", "a": "Yes. Lane splitting is legal in California. The question is whether you were doing it reasonably — and whether the driver who hit you was paying attention. Insurers use lane splitting to scare riders out of claims. Don't let them."},
+    {"q": "I wasn't wearing a helmet.", "a": "You may still recover. California's comparative negligence rules mean your recovery could be reduced for injuries a helmet would have prevented — but the driver who caused the crash is still responsible for the crash. Get a free review before you assume anything."},
+    {"q": "The insurance company already offered me money. Should I take it?", "a": "Not before a free case review. First offers to riders are especially low because insurers assume you'll take it. Signing usually ends your claim permanently, even if your injuries get worse."},
+    {"q": "How long do I have to file?", "a": "{SOL}"},
+    {"q": "I don't have health insurance. Can I still get treated?", "a": "Yes. We help clients get the care they need — often on a lien, so providers are paid from the settlement instead of out of your pocket. Don't skip treatment; it hurts your health and your case."},
+    {"q": "What does it cost?", "a": "Nothing up front — ever. We front every cost of building your case and only collect a fee if we recover money for you. No recovery, no attorney fee."}
+  ],
+  "final": {"h": "Talk to a Motorcycle Accident Lawyer Today — Free", "p": "Open 24/7, 365 days a year. If we don't win, you pay nothing."}
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "personal-injury-lawyer",
+  "group": "injury",
+  "name": "Personal Injury",
+  "kw_noun": "Personal Injury",
+  "title_noun": "Personal Injury Lawyers",
+  "meta_title": "{City} Personal Injury Lawyers | $3B+ Recovered · No Fee Unless We Win | Wilshire Law Firm",
+  "meta_description": "Injured in {City}? Wilshire Law Firm's personal injury attorneys have recovered $3B+ and won 59 of California's top 100 injury settlements in 2024. Free 24/7 case review. No fee unless we win.",
+  "eyebrow": "{City} Personal Injury Attorneys · Free 24/7 Case Review",
+  "h1": {"pre": "Injured in ", "post": "? Don't Let the Insurance Company Decide What You're Worth."},
+  "h1_state": {"pre": "Injured in ", "post": "? Don't Let the Insurance Company Decide What You're Worth."},
+  "hero_sub": "The adjuster's job is to pay you as little as possible. Ours is the opposite — $3 billion recovered, 59 of California's top 100 injury settlements in 2024, and you pay nothing unless we win.",
+  "benefits": ["No Fee Unless We Win", "Free Case Review", "Se Habla Español"],
+  "form": {
+    "title": "What's Your Case Worth?",
+    "sub": "Free & confidential · No obligation · 60 seconds",
+    "q1": {"key": "type", "label": "What kind of accident?", "options": ["Car, truck, or motorcycle", "Pedestrian or bicycle", "Slip, trip, or fall", "Rideshare (Uber / Lyft)", "Something else"]},
+    "q2": {"key": "when", "label": "When did it happen?", "options": ["Just happened", "Within the last 3 months", "3–12 months ago", "Over a year ago"]}
+  },
+  "form_quote": {"text": "After my car accident, I was stressed out and unsure of what to do, but they stepped in and handled my entire claim with incredible speed and professionalism.", "by": "Tiffany Lopez · Google Review"},
+  "urgency": {
+    "eyebrow": "Read This Before You Talk to the Adjuster",
+    "h": "The Insurance Company Has a Playbook. Here's Page One.",
+    "sub": "You didn't ask for this. But the moment you were hurt, a billion-dollar company started working to pay you as little as possible.",
+    "cards": [
+      {"t": "The fast, friendly lowball", "p": "A quick check and a kind voice — before you know what your injuries will cost. Sign it, and your claim is closed forever, even if you need surgery next month."},
+      {"t": "The recorded statement", "p": "\"Just a few questions for our file.\" Every word is being mined for a reason to blame you or downplay your injury. You are not required to give one. Talk to us first."},
+      {"t": "Evidence and deadlines", "p": "Camera footage gets erased in days. Witnesses move. Vehicles get repaired. And California's filing deadline is real. The sooner we start, the stronger your case."}
+    ]
+  },
+  "results": [
+    {"amount": "$36,000,000", "label": "Single-plaintiff settlement", "tag": "Fresno County"},
+    {"amount": "$35,000,000", "label": "Jury verdict · semi-truck vs. passenger car", "tag": "Los Angeles"},
+    {"amount": "$28,700,000", "label": "Pedestrian accident settlement", "tag": "#1 in the U.S. · 2019"},
+    {"amount": "$17,120,000", "label": "Verdict · pedestrian struck by bus", "tag": "Trial"}
+  ],
+  "result_highlight": "In 2024, Wilshire Law Firm secured <b>59 of the top 100 personal injury settlements in California</b> — more than any other firm in the state. Adjusters know exactly which firms take cases to trial. That changes the first offer.",
+  "value": {
+    "eyebrow": "What You Could Recover",
+    "h": "Your Case Is Worth More Than Your Medical Bills",
+    "sub": "Adjusters hope you'll settle for what the ER charged. California law says you're owed far more.",
+    "items": [
+      {"t": "Every medical bill — past and future", "p": "The ambulance, the ER, the surgery, the physical therapy — and the treatment you'll still need next year. We work with medical experts to price the whole road, not just the first mile."},
+      {"t": "Lost income & earning capacity", "p": "The paychecks you missed, and the ones you'll miss if you can't go back to the same work. Self-employed? We prove that too."},
+      {"t": "Pain and suffering", "p": "The sleepless nights, the fear behind the wheel, the things you can't do with your kids anymore. In California there is no cap on these damages in most injury cases."},
+      {"t": "Property damage & out-of-pocket costs", "p": "Your car, your bike, your phone, your rental, your mileage to appointments. We have a department that handles nothing but property damage — so nothing gets left behind."},
+      {"t": "Punitive damages", "p": "Drunk driver? Trucking company that ignored safety rules? Juries can award punitive damages designed to punish — on top of everything else."}
+    ]
+  },
+  "offer": {
+    "h": "Here's the Deal — and It's Free",
+    "includes": ["A free review of your accident by an injury lawyer's team, 24/7", "A realistic range of what your case is worth — before you sign anything", "We handle every adjuster call and help coordinate medical care, even with no health insurance", "We front every cost — investigators, experts, filing fees"],
+    "guarantee": "You pay <b>nothing</b> unless we win. If we don't recover money for you, our fee is zero. The only way you lose by calling is by not calling."
+  },
+  "how": [
+    {"t": "Tell us what happened", "p": "Call 24/7 or send the 60-second form. A real person — not a phone tree — hears your story and tells you where you stand. Free, no obligation."},
+    {"t": "We take over the fight", "p": "We handle every adjuster call, gather the evidence, and help coordinate your medical care — while we front every cost of your case. You focus on healing."},
+    {"t": "You get paid", "p": "We negotiate for the maximum — and take them to trial if they won't pay it. Insurers know which firms fold before trial. This isn't one of them."}
+  ],
+  "why": {
+    "eyebrow": "Why Insurers Pay Us More",
+    "h": "We Know the Insurance Playbook — and We Take Cases to Verdict",
+    "paras": [
+      "<b>Bobby Saadian</b> founded Wilshire Law Firm in 2007 and built it into one of the largest personal injury firms in California: 100+ attorneys, 500+ legal professionals, 20 offices, and more than $3 billion recovered. He's a National Trial Lawyers Top 100 attorney and a lifetime member of the Multi-Million Dollar Advocates Forum.",
+      "Best Lawyers has named the firm to \"Best Law Firms\" seven years running (2020–2026), and it's the Official Personal Injury Law Firm of the Los Angeles Chargers. When an adjuster sees our name on the file, the first offer changes."
+    ],
+    "attorneys": ["saadian"],
+    "mult": {"big": "4.4x", "text": "Injury victims with a lawyer recover <b>$77,600 on average vs. $17,600</b> without one, according to a Martindale-Nolo consumer study."},
+    "chips": ["59 of CA's top 100 settlements · 2024", "We front every cost", "A real person answers 24/7", "Se habla español"]
+  },
+  "testimonials": [
+    {"text": "After my car accident, I was stressed out and unsure of what to do, but they stepped in and handled my entire claim with incredible speed and professionalism. They settled everything much quicker than I ever expected and took the burden off my shoulders so I could focus on recovering.", "by": "Tiffany Lopez · Google Review"},
+    {"text": "I had a slip and fall injury, and I was pretty shaken up. The Wilshire team took care of everything from start to finish. They provided detailed explanations, answered all my questions, and were always there when I needed them. They got me a great result.", "by": "Dylan Wright · Google Review"},
+    {"text": "I worked with Wilshire Law Firm after I was involved in a serious motorcycle accident. The team was quick to respond and extremely professional. They fought for me every step of the way. The results were better than I expected.", "by": "Thomas King · Google Review"}
+  ],
+  "faq": [
+    {"q": "What does it cost to hire you?", "a": "Nothing up front — ever. The consultation is free, we front every cost of building your case, and we only collect an attorney fee if we recover money for you. No recovery, no attorney fee. Court costs and case expenses are explained clearly in your agreement before you sign."},
+    {"q": "The insurance company already offered me money. Should I take it?", "a": "Not before a free case review. First offers are low by design — adjusters are trained to settle before you know what your claim is worth. Signing usually ends your claim permanently, even if your injuries get worse. Let us look first; it costs you nothing."},
+    {"q": "How much is my case worth?", "a": "It depends on your medical bills, lost wages, future treatment, and what the injury has taken from your life. Insurers hope you'll guess low. A free case review gives you a realistic range before you accept anything."},
+    {"q": "How long do I have to file?", "a": "{SOL}"},
+    {"q": "I don't have health insurance. Can I still get treated?", "a": "Yes. We help clients get the care they need — often on a lien, so the providers are paid from the settlement instead of out of your pocket. Don't skip treatment; it hurts your health and your case."},
+    {"q": "What if I was partly at fault?", "a": "You can still recover. California uses pure comparative negligence — your recovery is simply reduced by your share of fault, even if it's more than half. Don't accept the insurer's version of who's to blame; get a free review first."}
+  ],
+  "final": {"h": "Talk to an Injury Lawyer Today — Free", "p": "Open 24/7, 365 days a year. If we don't win, you pay nothing."}
+}

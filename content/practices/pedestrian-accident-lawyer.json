@@ -1,0 +1,85 @@
+{
+  "slug": "pedestrian-accident-lawyer",
+  "group": "injury",
+  "name": "Pedestrian & Bicycle Accident",
+  "kw_noun": "Pedestrian Accident",
+  "title_noun": "Pedestrian & Bicycle Accident Lawyers",
+  "meta_title": "{City} Pedestrian & Bicycle Accident Lawyers | $28.7M Result · No Fee Unless We Win | Wilshire Law Firm",
+  "meta_description": "Hit by a car while walking or biking in {City}? Wilshire Law Firm won the #1 pedestrian settlement in the U.S. ($28.7M) and has recovered $3B+. Free 24/7 case review. No fee unless we win.",
+  "eyebrow": "{City} Pedestrian & Bicycle Accident Attorneys · Free 24/7 Case Review",
+  "h1": {"pre": "Hit by a Car in ", "post": "? You Had the Right of Way. Now Get the Rest of What You're Owed."},
+  "h1_state": {"pre": "Hit by a Car in ", "post": "? You Had the Right of Way. Now Get the Rest of What You're Owed."},
+  "hero_sub": "Walking or biking, you had no protection — and the driver's insurer will still try to blame you. We won the #1 pedestrian settlement in the country. No fee unless we win.",
+  "benefits": ["No Fee Unless We Win", "Free Case Review", "Se Habla Español"],
+  "form": {
+    "title": "What's Your Case Worth?",
+    "sub": "Free & confidential · No obligation · 60 seconds",
+    "q1": {"key": "mode", "label": "How were you hit?", "options": ["Walking — in a crosswalk", "Walking — outside a crosswalk", "Riding a bicycle", "Riding a scooter or e-bike"]},
+    "q2": {"key": "injured", "label": "Were you injured?", "options": ["Yes — I've seen a doctor", "Yes — but not treated yet", "I'm not sure"]}
+  },
+  "form_quote": {"text": "Wilshire helped me in a pedestrian accident case. Appreciate the dedication of my attorney in getting a settlement to cover my medical bills and other damages.", "by": "Annabelle Gardner · Google Review"},
+  "urgency": {
+    "eyebrow": "What Happens Next",
+    "h": "The Driver Had Insurance. You Had a Crosswalk. Guess Who They'll Blame.",
+    "sub": "Pedestrian and cyclist injuries are among the most severe on the road — and insurers fight them the hardest. Here's what they're doing right now.",
+    "cards": [
+      {"t": "\"They came out of nowhere\"", "p": "Every pedestrian case starts with the driver claiming you darted out, were on your phone, or weren't in the crosswalk. Footage, witnesses, and reconstruction settle that argument — if someone preserves them fast."},
+      {"t": "Hit-and-run? You may still have a claim", "p": "Your own uninsured-motorist coverage, a household policy, or the city itself may be liable. Don't assume no driver means no case."},
+      {"t": "Public property, short deadline", "p": "Bad crosswalk design, a missing signal, a bus, a city vehicle — if a government entity is involved, you may have as little as six months to file a claim. Don't wait to find out."}
+    ]
+  },
+  "results": [
+    {"amount": "$28,700,000", "label": "Pedestrian struck by vehicle", "tag": "#1 single-plaintiff settlement in the U.S. · 2019"},
+    {"amount": "$17,120,000", "label": "Verdict · pedestrian struck by transit bus", "tag": "Leg amputation · Trial"},
+    {"amount": "$36,000,000", "label": "Single-plaintiff settlement", "tag": "Fresno County"},
+    {"amount": "$35,000,000", "label": "Jury verdict · semi-truck collision", "tag": "Two-week trial"}
+  ],
+  "result_highlight": "Our <b>$28.7 million</b> pedestrian settlement was ranked the <b>#1 single-plaintiff pedestrian accident settlement in the United States</b> in 2019. When an 85-year-old man lost his leg to a transit bus, we took it to trial and won <b>$17.12 million</b>. Insurers know those numbers.",
+  "value": {
+    "eyebrow": "What You Could Recover",
+    "h": "Nothing Between You and the Car. Everything on the Table.",
+    "sub": "Pedestrian and bicycle injuries are catastrophic by nature. California law prices them accordingly.",
+    "items": [
+      {"t": "Every medical bill — past and future", "p": "Fractures, head injuries, surgeries, rehab — and the care you'll need years from now. Medical and economic experts price the whole road, not just the ambulance ride."},
+      {"t": "Lost income & earning capacity", "p": "The work you missed, and the work you can't go back to. If your career changed, the difference for the rest of your working life."},
+      {"t": "Pain and suffering", "p": "Long recoveries, permanent scars, the fear of crossing a street. No cap on these damages in most California injury cases."},
+      {"t": "Your bike and property", "p": "The bicycle, the e-bike, the phone, the glasses — everything destroyed, handled by our dedicated property-damage team."},
+      {"t": "Punitive damages", "p": "Drunk driver? Hit-and-run? Juries can award punitive damages designed to punish — on top of everything else."}
+    ]
+  },
+  "offer": {
+    "h": "Here's the Deal — and It's Free",
+    "includes": ["A free review of what happened by a pedestrian accident lawyer's team, 24/7", "Immediate preservation demands for traffic and business camera footage", "A realistic range of what your case is worth — before you sign anything", "We front every cost — reconstruction, experts, filing fees"],
+    "guarantee": "You pay <b>nothing</b> unless we win. If we don't recover money for you, our fee is zero. The only way you lose by calling is by not calling."
+  },
+  "how": [
+    {"t": "Tell us what happened", "p": "Call 24/7 or send the 60-second form. A real person hears your story and tells you where you stand. Free, no obligation."},
+    {"t": "We take over the fight", "p": "We lock down the footage and witnesses, identify every liable party and policy, handle every adjuster call, and help coordinate medical care — while we front every cost."},
+    {"t": "You get paid", "p": "We negotiate for the maximum — and take them to trial if they won't pay it. Insurers know which firms fold before trial. This isn't one of them."}
+  ],
+  "why": {
+    "eyebrow": "Why Insurers Pay Us More",
+    "h": "The #1 Pedestrian Settlement in the Country Was Ours",
+    "paras": [
+      "<b>Bobby Saadian</b> founded Wilshire Law Firm in 2007 and built it into one of the largest injury firms in California: 100+ attorneys, 500+ legal professionals, 20 offices, and more than $3 billion recovered. The firm's $28.7 million pedestrian settlement was ranked #1 in the nation, and its $17.12 million bus-strike verdict came at trial.",
+      "In 2024 the firm secured 59 of the top 100 personal injury settlements in California. When an adjuster sees our name on a pedestrian file, the \"they darted out\" defense gets a lot quieter."
+    ],
+    "attorneys": ["saadian"],
+    "mult": {"big": "4.4x", "text": "Injury victims with a lawyer recover <b>$77,600 on average vs. $17,600</b> without one, according to a Martindale-Nolo consumer study."},
+    "chips": ["#1 U.S. pedestrian settlement · 2019", "$17.12M verdict at trial", "A real person answers 24/7", "Se habla español"]
+  },
+  "testimonials": [
+    {"text": "Wilshire helped me in a pedestrian accident case. Appreciate the dedication of my attorney in getting a settlement to cover my medical bills and other damages.", "by": "Annabelle Gardner · Google Review"},
+    {"text": "I didn't even think I could have gotten any help because my case was a hit-and-run on my bike by a vehicle — till Wilshire Law Firm reached out and took me by surprise and won my case. It's a blessing.", "by": "Fernando Jimenez · Google Review"},
+    {"text": "They actually do research on everything from top to bottom and help you get a good settlement when you're going through a tough, painful moment of being injured. They help you step by step.", "by": "Oscar Torres · Google Review"}
+  ],
+  "faq": [
+    {"q": "I wasn't in a crosswalk. Do I still have a case?", "a": "Very likely. Drivers have a duty to watch for pedestrians everywhere, and California's comparative negligence rules mean you can recover even if you share some fault — your recovery is just reduced by your percentage. Don't let the insurer talk you out of a claim."},
+    {"q": "It was a hit-and-run. Who pays?", "a": "Possibly your own auto policy's uninsured-motorist coverage (even though you were on foot), a family member's policy, or — if the driver is later identified — theirs. We investigate every avenue."},
+    {"q": "The driver's insurer already offered me money.", "a": "Don't sign. Pedestrian injuries often get worse before they get better, and a signed release ends your claim permanently. A free review takes 60 seconds."},
+    {"q": "How long do I have to file?", "a": "{SOL}"},
+    {"q": "I don't have health insurance. Can I still get treated?", "a": "Yes. We help clients get the care they need — often on a lien, so providers are paid from the settlement instead of out of your pocket. Don't skip treatment."},
+    {"q": "What does it cost?", "a": "Nothing up front — ever. We front every cost of building your case and only collect a fee if we recover money for you. No recovery, no attorney fee."}
+  ],
+  "final": {"h": "Talk to a Pedestrian Accident Lawyer Today — Free", "p": "Open 24/7, 365 days a year. If we don't win, you pay nothing."}
+}

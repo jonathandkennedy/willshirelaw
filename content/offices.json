@@ -1,0 +1,369 @@
+{
+  "_note": "Addresses/phones compiled 2026-09-04 from wilshirelawfirm.com location pages (via search snippets), FindLaw and Yelp listings — VERIFY each with the firm before launch. `serves` = surrounding cities that get their own baked page pointing to this office. `practices` limits which page types are built for the office and its cities (Nevada offices: injury only — the firm's employment practice is CA/OR/WA).",
+  "regions": [
+    {
+      "name": "Los Angeles",
+      "offices": [
+        {
+          "slug": "los-angeles",
+          "city": "Los Angeles",
+          "state": "CA",
+          "county": "Los Angeles County",
+          "address": "660 S. Figueroa St., Sky Lobby",
+          "zip": "90017",
+          "phone": "(213) 329-7576",
+          "phone_tel": "+12133297576",
+          "hq": true,
+          "serves": [
+            "Downtown Los Angeles",
+            "Hollywood",
+            "Glendale",
+            "Pasadena",
+            "Burbank",
+            "Santa Monica",
+            "Inglewood",
+            "Van Nuys",
+            "East Los Angeles",
+            "Koreatown",
+            "Compton",
+            "Whittier"
+          ]
+        },
+        {
+          "slug": "beverly-hills",
+          "city": "Beverly Hills",
+          "state": "CA",
+          "county": "Los Angeles County",
+          "address": "9701 Wilshire Blvd., 12th Floor",
+          "zip": "90212",
+          "phone": "(310) 879-1030",
+          "phone_tel": "+13108791030",
+          "serves": [
+            "West Hollywood",
+            "Culver City",
+            "Westwood",
+            "Sherman Oaks"
+          ]
+        },
+        {
+          "slug": "torrance",
+          "city": "Torrance",
+          "state": "CA",
+          "county": "Los Angeles County",
+          "address": "21515 Hawthorne Blvd., Suite 1200",
+          "zip": "90503",
+          "phone": "(310) 307-3316",
+          "phone_tel": "+13103073316",
+          "serves": [
+            "Carson",
+            "Gardena",
+            "Redondo Beach",
+            "Hawthorne",
+            "San Pedro"
+          ]
+        },
+        {
+          "slug": "long-beach",
+          "city": "Long Beach",
+          "state": "CA",
+          "county": "Los Angeles County",
+          "address": "444 W. Ocean Blvd., Suite 800",
+          "zip": "90802",
+          "phone": "(800) 522-7274",
+          "phone_tel": "+18005227274",
+          "phone_note": "No verified local line found in public listings — displays the firm's main 1-800-52-CRASH line. Replace with the office's real local number (or set site.campaign_phone) before launch.",
+          "serves": [
+            "Lakewood",
+            "Downey",
+            "Norwalk",
+            "Bellflower"
+          ]
+        },
+        {
+          "slug": "palmdale",
+          "city": "Palmdale",
+          "state": "CA",
+          "county": "Los Angeles County",
+          "address": "1008 W. Avenue M14, Suite A-20",
+          "zip": "93551",
+          "phone": "(800) 891-1876",
+          "phone_tel": "+18008911876",
+          "serves": [
+            "Santa Clarita",
+            "Victorville"
+          ]
+        },
+        {
+          "slug": "lancaster",
+          "city": "Lancaster",
+          "state": "CA",
+          "county": "Los Angeles County",
+          "address": "963 W. Avenue J",
+          "zip": "93534",
+          "phone": "(800) 891-1876",
+          "phone_tel": "+18008911876",
+          "serves": [
+            "Antelope Valley"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Orange County",
+      "offices": [
+        {
+          "slug": "irvine",
+          "city": "Irvine",
+          "state": "CA",
+          "county": "Orange County",
+          "address": "15707 Rockfield Blvd., Suite 320",
+          "zip": "92618",
+          "phone": "(949) 591-8266",
+          "phone_tel": "+19495918266",
+          "serves": [
+            "Santa Ana",
+            "Huntington Beach",
+            "Costa Mesa",
+            "Newport Beach",
+            "Mission Viejo",
+            "Lake Forest",
+            "Tustin"
+          ]
+        },
+        {
+          "slug": "orange",
+          "city": "Orange",
+          "state": "CA",
+          "county": "Orange County",
+          "address": "1940 W. Orangewood Ave., Suite 110",
+          "zip": "92868",
+          "phone": "(714) 386-1747",
+          "phone_tel": "+17143861747",
+          "serves": [
+            "Anaheim",
+            "Garden Grove",
+            "Fullerton",
+            "Westminster"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Inland Empire",
+      "offices": [
+        {
+          "slug": "riverside",
+          "city": "Riverside",
+          "state": "CA",
+          "county": "Riverside County",
+          "address": "3880 Lemon St., Suite 410",
+          "zip": "92501",
+          "phone": "(951) 557-6087",
+          "phone_tel": "+19515576087",
+          "serves": [
+            "Moreno Valley",
+            "Corona",
+            "Temecula",
+            "Murrieta",
+            "Hemet"
+          ]
+        },
+        {
+          "slug": "ontario",
+          "city": "Ontario",
+          "state": "CA",
+          "county": "San Bernardino County",
+          "address": "337 N. Vineyard Ave.",
+          "zip": "91764",
+          "phone": "(800) 522-7274",
+          "phone_tel": "+18005227274",
+          "phone_note": "No verified local line found in public listings — displays the firm's main 1-800-52-CRASH line. Replace with the office's real local number (or set site.campaign_phone) before launch.",
+          "serves": [
+            "San Bernardino",
+            "Fontana",
+            "Rancho Cucamonga",
+            "Pomona",
+            "Chino",
+            "Rialto"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "San Diego",
+      "offices": [
+        {
+          "slug": "san-diego",
+          "city": "San Diego",
+          "state": "CA",
+          "county": "San Diego County",
+          "address": "3511 Camino Del Rio S., Suite 400",
+          "zip": "92108",
+          "phone": "(619) 257-2818",
+          "phone_tel": "+16192572818",
+          "serves": [
+            "Chula Vista",
+            "Oceanside",
+            "Escondido",
+            "El Cajon",
+            "Carlsbad",
+            "National City"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Central Valley",
+      "offices": [
+        {
+          "slug": "bakersfield",
+          "city": "Bakersfield",
+          "state": "CA",
+          "county": "Kern County",
+          "address": "1430 Truxtun Ave.",
+          "zip": "93301",
+          "phone": "(800) 522-7274",
+          "phone_tel": "+18005227274",
+          "phone_note": "No verified local line found in public listings — displays the firm's main 1-800-52-CRASH line. Replace with the office's real local number (or set site.campaign_phone) before launch.",
+          "serves": [
+            "Delano"
+          ]
+        },
+        {
+          "slug": "fresno",
+          "city": "Fresno",
+          "state": "CA",
+          "county": "Fresno County",
+          "address": "1221 Van Ness Ave., Suite 301",
+          "zip": "93721",
+          "phone": "(800) 522-7274",
+          "phone_tel": "+18005227274",
+          "phone_note": "No verified local line found in public listings — displays the firm's main 1-800-52-CRASH line. Replace with the office's real local number (or set site.campaign_phone) before launch.",
+          "serves": [
+            "Clovis",
+            "Visalia",
+            "Madera"
+          ]
+        },
+        {
+          "slug": "modesto",
+          "city": "Modesto",
+          "state": "CA",
+          "county": "Stanislaus County",
+          "address": "1012 11th St., Suite 303",
+          "zip": "95350",
+          "phone": "(800) 522-7274",
+          "phone_tel": "+18005227274",
+          "phone_note": "No verified local line found in public listings — displays the firm's main 1-800-52-CRASH line. Replace with the office's real local number (or set site.campaign_phone) before launch.",
+          "serves": [
+            "Stockton",
+            "Turlock",
+            "Merced"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sacramento & Northern California",
+      "offices": [
+        {
+          "slug": "sacramento",
+          "city": "Sacramento",
+          "state": "CA",
+          "county": "Sacramento County",
+          "address": "770 L St., Suite 1400",
+          "zip": "95814",
+          "phone": "(916) 957-0598",
+          "phone_tel": "+19169570598",
+          "serves": [
+            "Elk Grove",
+            "Roseville",
+            "Folsom"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bay Area",
+      "offices": [
+        {
+          "slug": "oakland",
+          "city": "Oakland",
+          "state": "CA",
+          "county": "Alameda County",
+          "address": "475 14th St., Suite 700",
+          "zip": "94612",
+          "phone": "(510) 391-4877",
+          "phone_tel": "+15103914877",
+          "serves": [
+            "Berkeley",
+            "Hayward",
+            "Fremont",
+            "Richmond",
+            "Concord"
+          ]
+        },
+        {
+          "slug": "san-francisco",
+          "city": "San Francisco",
+          "state": "CA",
+          "county": "San Francisco County",
+          "address": "1160 Battery St., Suite 100",
+          "zip": "94111",
+          "phone": "(628) 895-2682",
+          "phone_tel": "+16288952682",
+          "serves": [
+            "San Jose",
+            "Daly City",
+            "San Mateo"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ventura & Central Coast",
+      "offices": [
+        {
+          "slug": "oxnard",
+          "city": "Oxnard",
+          "state": "CA",
+          "county": "Ventura County",
+          "address": "1000 Town Center Dr.",
+          "zip": "93036",
+          "phone": "(800) 891-1876",
+          "phone_tel": "+18008911876",
+          "serves": [
+            "Ventura",
+            "Thousand Oaks",
+            "Simi Valley",
+            "Santa Barbara"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nevada",
+      "offices": [
+        {
+          "slug": "las-vegas",
+          "city": "Las Vegas",
+          "state": "NV",
+          "county": "Clark County",
+          "address": "6130 W. Elton Ave., PMB 575",
+          "zip": "89107",
+          "phone": "(800) 522-7274",
+          "phone_tel": "+18005227274",
+          "phone_note": "No verified local line found in public listings — displays the firm's main 1-800-52-CRASH line. Replace with the office's real local number (or set site.campaign_phone) before launch.",
+          "practices": [
+            "injury"
+          ],
+          "serves": [
+            "Henderson",
+            "North Las Vegas",
+            "Summerlin"
+          ]
+        }
+      ]
+    }
+  ]
+}

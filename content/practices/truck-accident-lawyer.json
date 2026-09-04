@@ -1,0 +1,85 @@
+{
+  "slug": "truck-accident-lawyer",
+  "group": "injury",
+  "name": "Truck Accident",
+  "kw_noun": "Truck Accident",
+  "title_noun": "Truck Accident Lawyers",
+  "meta_title": "{City} Truck Accident Lawyers | $35M Verdict · No Fee Unless We Win | Wilshire Law Firm",
+  "meta_description": "Hit by a semi or commercial truck in {City}? Wilshire Law Firm won a $35M truck-crash verdict and has recovered $3B+ for clients. Free 24/7 case review. No fee unless we win.",
+  "eyebrow": "{City} Truck Accident Attorneys · Free 24/7 Case Review",
+  "h1": {"pre": "Hit by a Truck in ", "post": "? The Trucking Company's Team Is Already at Work."},
+  "h1_state": {"pre": "Hit by a Truck in ", "post": "? The Trucking Company's Team Is Already at Work."},
+  "hero_sub": "Trucking companies send investigators to the scene within hours. You need a firm that moves just as fast — and that won a $35 million truck-crash verdict at trial. No fee unless we win.",
+  "benefits": ["No Fee Unless We Win", "Free Case Review", "Se Habla Español"],
+  "form": {
+    "title": "What's Your Case Worth?",
+    "sub": "Free & confidential · No obligation · 60 seconds",
+    "q1": {"key": "when", "label": "When did the crash happen?", "options": ["Just happened", "Within the last 3 months", "3–12 months ago", "Over a year ago"]},
+    "q2": {"key": "injured", "label": "Were you injured?", "options": ["Yes — I've seen a doctor", "Yes — but not treated yet", "I'm not sure"]}
+  },
+  "form_quote": {"text": "I was hit by a truck and broke my leg. Wilshire gave me a great team and did absolutely everything within their power to get me the compensation I deserved.", "by": "Google Review"},
+  "urgency": {
+    "eyebrow": "Why Truck Cases Are Different",
+    "h": "The Trucking Company Started Building Its Defense at the Scene",
+    "sub": "Commercial carriers carry seven- and eight-figure policies — and they have rapid-response teams whose only job is to protect them. Here's what they're doing right now.",
+    "cards": [
+      {"t": "Evidence has a shelf life", "p": "The truck's electronic logging device, dashcam, GPS, and black box data can be overwritten in days. Federal rules only require carriers to keep some records for months. A preservation demand from us the day you hire us is the difference."},
+      {"t": "Multiple defendants, multiple policies", "p": "The driver. The carrier. The company that loaded the trailer. The broker. The maintenance shop. Each one may carry its own coverage — and each one will try to blame the others. We pursue all of them."},
+      {"t": "They will try to blame you", "p": "\"He cut me off.\" \"She was in my blind spot.\" The carrier's investigators arrive with a story already written. Ours arrive with the federal safety rules the driver was supposed to follow."}
+    ]
+  },
+  "results": [
+    {"amount": "$35,000,000", "label": "Jury verdict · semi-truck vs. passenger car", "tag": "Two-week trial · Los Angeles"},
+    {"amount": "$36,000,000", "label": "Single-plaintiff settlement", "tag": "Fresno County"},
+    {"amount": "$17,120,000", "label": "Verdict · pedestrian struck by transit bus", "tag": "Trial"},
+    {"amount": "$28,700,000", "label": "Pedestrian struck by vehicle", "tag": "#1 in the U.S. · 2019"}
+  ],
+  "result_highlight": "When a semi-truck collided with our client's car on a Los Angeles freeway, the insurer bet we'd settle. Founder <b>Bobby Saadian</b> took it to a two-week jury trial and won a <b>$35,000,000 verdict</b>. Carriers know that story. It changes the first offer.",
+  "value": {
+    "eyebrow": "What You Could Recover",
+    "h": "Truck Crashes Cause Catastrophic Injuries. The Law Prices Them Accordingly.",
+    "sub": "An 80,000-pound truck against a 4,000-pound car doesn't produce fender-benders. Here's what a full recovery includes.",
+    "items": [
+      {"t": "Lifetime medical care", "p": "Surgeries, rehabilitation, spinal and brain injury treatment, home care, mobility equipment — priced for the rest of your life by medical and economic experts, not by the adjuster."},
+      {"t": "Lost income & earning capacity", "p": "If you can't return to your work — or any work — the value of every paycheck you would have earned is part of the case."},
+      {"t": "Pain and suffering", "p": "The physical pain, the trauma, the life you had before. California places no cap on these damages in most injury cases, and juries in truck cases award accordingly."},
+      {"t": "Wrongful death damages", "p": "If you lost someone, the family can recover funeral costs, lost financial support, and the loss of love, companionship, and guidance."},
+      {"t": "Punitive damages", "p": "Falsified logbooks, skipped inspections, drivers pushed past federal hour limits — when a carrier's misconduct is willful, juries can add punitive damages to punish it."}
+    ]
+  },
+  "offer": {
+    "h": "Here's the Deal — and It's Free",
+    "includes": ["A free review of your crash by a truck accident lawyer's team, 24/7", "Immediate preservation demands for the truck's data, logs, and dashcam", "A realistic range of what your case is worth — before you sign anything", "We front every cost — accident reconstruction, trucking experts, filing fees"],
+    "guarantee": "You pay <b>nothing</b> unless we win. If we don't recover money for you, our fee is zero. The only way you lose by calling is by not calling."
+  },
+  "how": [
+    {"t": "Tell us what happened", "p": "Call 24/7 or send the 60-second form. A real person hears your story and tells you where you stand. Free, no obligation."},
+    {"t": "We lock down the evidence and take over", "p": "Preservation demands go out immediately. Our investigators and reconstruction experts get to work. We handle every call from the carrier's insurer and help coordinate your medical care — while we front every cost."},
+    {"t": "You get paid", "p": "We negotiate for the maximum — and take them to trial if they won't pay it. Carriers know which firms fold before trial. We won $35 million at one."}
+  ],
+  "why": {
+    "eyebrow": "Why Carriers Pay Us More",
+    "h": "A $35 Million Truck Verdict Says More Than Any Ad",
+    "paras": [
+      "<b>Bobby Saadian</b> founded Wilshire Law Firm in 2007 and built it into one of the largest injury firms in California: 100+ attorneys, 500+ legal professionals, 20 offices, and more than $3 billion recovered. His $35 million jury verdict in a semi-truck collision case came after a two-week trial — the kind of result that makes carriers settle the next one.",
+      "In 2024 the firm secured 59 of the top 100 personal injury settlements in California. Best Lawyers has named it to \"Best Law Firms\" seven years running. When the carrier's adjuster sees our name on the file, the first offer changes."
+    ],
+    "attorneys": ["saadian"],
+    "mult": {"big": "4.4x", "text": "Crash victims with a lawyer recover <b>$77,600 on average vs. $17,600</b> without one, according to a Martindale-Nolo consumer study. In truck cases, the gap is far wider."},
+    "chips": ["$35M truck verdict at trial", "Rapid evidence preservation", "We front every cost", "Se habla español"]
+  },
+  "testimonials": [
+    {"text": "I was hit by a truck in the Vons parking lot and broke my leg and tore my other knee. Wilshire gave me a great team and did absolutely everything within their power to get me the compensation I deserved. I highly recommend and appreciate their professionalism.", "by": "Google Review"},
+    {"text": "I cannot recommend this law firm highly enough! They stepped in and handled my entire claim with incredible speed and professionalism, kept me updated throughout, and settled everything much quicker than I ever expected.", "by": "Tiffany Lopez · Google Review"},
+    {"text": "They do what is necessary to get results and they make sure that you have an understanding about everything they are doing. Thank you Wilshire.", "by": "Victor Rebecca Brown · Google Review"}
+  ],
+  "faq": [
+    {"q": "Why do I need a truck accident lawyer specifically?", "a": "Because truck cases are governed by federal safety regulations, involve multiple potential defendants and policies, and hinge on electronic evidence that disappears fast. Carriers have specialized defense teams. You need a firm that has taken a truck case to a $35 million verdict."},
+    {"q": "The trucking company's insurer called and wants a statement.", "a": "Don't give one. You're not required to, and every word will be used to shrink your claim. Politely tell them your lawyer will be in touch — then call us."},
+    {"q": "How much is my truck accident case worth?", "a": "Truck cases are typically worth far more than car cases because the injuries are more severe and the policies are larger. It depends on your injuries, your prognosis, your income, and how badly the carrier behaved. A free review gives you a realistic range."},
+    {"q": "How long do I have to file?", "a": "{SOL}"},
+    {"q": "What does it cost?", "a": "Nothing up front — ever. Truck cases are expensive to build — reconstruction experts, trucking-industry experts, medical experts. We front all of it, and we only collect a fee if we recover money for you."},
+    {"q": "What if I was partly at fault?", "a": "You can still recover. California uses pure comparative negligence — your recovery is reduced by your share of fault, even if it's more than half. Don't accept the carrier's version of who's to blame."}
+  ],
+  "final": {"h": "Talk to a Truck Accident Lawyer Today — Free", "p": "Open 24/7, 365 days a year. If we don't win, you pay nothing."}
+}

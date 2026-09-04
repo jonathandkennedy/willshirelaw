@@ -1,0 +1,85 @@
+{
+  "slug": "workplace-discrimination-lawyer",
+  "group": "employment",
+  "name": "Discrimination & Retaliation",
+  "kw_noun": "Workplace Discrimination",
+  "title_noun": "Workplace Discrimination Lawyers",
+  "meta_title": "{City} Workplace Discrimination & Retaliation Lawyers | No Fee Unless We Win | Wilshire Law Firm",
+  "meta_description": "Discriminated against or retaliated against at work in {City}? Wilshire Law Firm's employment attorneys have recovered $3B+ for clients. Free 24/7 review. No fee unless we win.",
+  "eyebrow": "{City} Discrimination & Retaliation Attorneys · Free 24/7 Case Review",
+  "h1": {"pre": "Treated Differently at Work in ", "post": "? That's Not \"Just How It Is.\" It's Illegal."},
+  "h1_state": {"pre": "Treated Differently at Work in ", "post": "? That's Not \"Just How It Is.\" It's Illegal."},
+  "hero_sub": "Age. Race. Pregnancy. Disability. Gender. Religion. Or punished for speaking up. California law protects you — and our discrimination attorneys enforce it for free unless we win.",
+  "benefits": ["No Fee Unless We Win", "Free & Confidential Review", "Se Habla Español"],
+  "form": {
+    "title": "Do You Have a Case?",
+    "sub": "Free & confidential · No obligation · 60 seconds",
+    "q1": {"key": "basis", "label": "What do you believe it was based on?", "options": ["Race, national origin, or language", "Age (40+)", "Disability, medical condition, or leave", "Pregnancy or family leave", "Gender, sexual orientation, or religion", "Retaliation for complaining or reporting"]},
+    "q2": {"key": "action", "label": "What happened to you?", "options": ["Fired or laid off", "Demoted or passed over for promotion", "Harassed or treated differently", "Hours or pay cut"]}
+  },
+  "form_quote": {"text": "My boss fired me after learning that I was pregnant. Wilshire took over my case and got him to hand over a settlement for pregnancy discrimination.", "by": "Shaun Everleigh · Google Review"},
+  "urgency": {
+    "eyebrow": "What They're Counting On",
+    "h": "They Think You Can't Prove It. We Do This Every Week.",
+    "sub": "Nobody says \"we're firing you because you're 52\" out loud. They say \"restructuring.\" Proving what they actually meant is our job.",
+    "cards": [
+      {"t": "Pretext is a pattern, not a confession", "p": "Ten years of great reviews, then a write-up three weeks after you asked for leave. The younger replacement. The \"budget cut\" that only hit the one person with a disability. Juries see through it — when a lawyer lays it out."},
+      {"t": "Retaliation makes it worse for them", "p": "Complaining about discrimination is protected. If they cut your hours, iced you out, or fired you after you spoke up, that's a second illegal act — with its own damages."},
+      {"t": "Deadlines and vanishing evidence", "p": "You have a filing window with the Civil Rights Department — and every week you wait, emails get purged and witnesses move on. A preservation demand from us stops the bleeding."}
+    ]
+  },
+  "results": [
+    {"amount": "$3B+", "label": "Recovered for clients", "tag": "Firm-wide"},
+    {"amount": "Tier 1", "label": "Labor & Employment Litigation, Los Angeles", "tag": "Best Law Firms 2026"},
+    {"amount": "$75M+", "label": "Employment settlements by one partner since 2023", "tag": "Employment dept."},
+    {"amount": "4.9★", "label": "2,500+ Google reviews", "tag": "Clients who'd recommend us"}
+  ],
+  "result_highlight": "California's Fair Employment and Housing Act is one of the strongest anti-discrimination laws in the country: <b>unlimited emotional-distress damages, punitive damages, and mandatory attorney's fees</b> when you win. It applies to employers with as few as five employees.",
+  "value": {
+    "eyebrow": "What You Could Recover",
+    "h": "What California Law Says They Owe You",
+    "sub": "Not \"maybe.\" These are the damages the Fair Employment and Housing Act puts on the table when an employer breaks it.",
+    "items": [
+      {"t": "Lost wages & benefits", "p": "Back pay from the day it happened, plus front pay for what you'll lose while you rebuild — raises, bonuses, health coverage, and retirement included."},
+      {"t": "Emotional distress", "p": "Being singled out, humiliated, and pushed out because of who you are does real damage. California juries award real money for it — with no cap."},
+      {"t": "Punitive damages", "p": "When a company acts with malice — or knew what a manager was doing and let it continue — the jury can award punitive damages meant to punish."},
+      {"t": "Reinstatement or promotion", "p": "In some cases, the court can order the job, the promotion, or the accommodation you were denied."},
+      {"t": "Attorney's fees, paid by them", "p": "Under FEHA the employer pays your legal fees when you win — which is exactly why we charge you nothing unless we do."}
+    ]
+  },
+  "offer": {
+    "h": "The Free Case Review — What You Actually Get",
+    "includes": ["A confidential review of what happened, by an employment lawyer's team", "A straight answer on whether the pattern is provable, and what it's worth", "What to do about HR, the severance offer, and the reference", "We front every cost of investigating and filing"],
+    "guarantee": "You pay <b>nothing</b> unless we win. Not a retainer, not an hourly bill. If we don't recover money for you, our fee is zero."
+  },
+  "how": [
+    {"t": "Tell us what happened", "p": "Call 24/7 or send the 60-second form. A real person hears the timeline — the comments, the changes, the people — and tells you where you stand."},
+    {"t": "We build the case", "p": "Preservation demand. Personnel file. Comparators — who got treated better, and why. We file with the Civil Rights Department and handle every call from the company's lawyers."},
+    {"t": "You get paid", "p": "We negotiate for the maximum — and take them to trial if they won't pay it. Employers who see our name on the letterhead know we don't bluff."}
+  ],
+  "why": {
+    "eyebrow": "Why Employers Settle With Us",
+    "h": "Tier 1 Employment Litigators. Paid Only When You Are.",
+    "paras": [
+      "Wilshire Law Firm's employment department is led by Senior Partner <b>John G. Yslas</b>, with three decades of experience, alongside Partner <b>Arrash T. Fattahi</b>, who has secured more than $75 million in employment settlements since 2023. Best Law Firms ranks the firm <b>Tier 1</b> in Los Angeles for Labor & Employment Litigation.",
+      "Founded in 2007 by <b>Bobby Saadian</b>, the firm has grown to 100+ attorneys and 500+ legal professionals across 20 offices. When your employer's lawyers see who's representing you, the conversation changes."
+    ],
+    "attorneys": ["yslas", "fattahi", "saadian"],
+    "mult": {"big": "5+", "text": "<b>Employees is all it takes.</b> California's FEHA covers employers with five or more employees — and harassment protections apply to employers of any size."},
+    "chips": ["Tier 1 · Labor & Employment", "Trial-tested — we don't bluff", "100+ attorneys · 20 offices", "Se habla español"]
+  },
+  "testimonials": [
+    {"text": "My boss fired me after learning that I was pregnant. Wilshire took over my case and got him to hand over a settlement for pregnancy discrimination. I was able to take a full mat leave with my baby, and the money covered all expenses.", "by": "Shaun Everleigh · Google Review"},
+    {"text": "My boss denied my request for extended leave for a major surgery. I tried to fight it but got fired. A friend, who had a similar experience, recommended Wilshire Law. They quickly secured a settlement for me.", "by": "Jacob Riley · Google Review"},
+    {"text": "I got fired for reporting harassment from a co-worker. The team at Wilshire Law stepped in, fought for justice, and got me a quick settlement. I'm thankful for how smoothly they handled everything.", "by": "Fredrick Kuhn · Google Review"}
+  ],
+  "faq": [
+    {"q": "What's protected under California law?", "a": "Race, color, national origin, ancestry, religion, age (40+), sex, gender, gender identity and expression, sexual orientation, pregnancy and related conditions, disability and medical conditions, genetic information, marital status, military or veteran status, and requesting or taking protected leave. Being punished for complaining about any of it is retaliation — also illegal."},
+    {"q": "They never said anything discriminatory out loud. Can I still prove it?", "a": "Yes. Most discrimination cases are proven by pattern: timing, comparisons to how others were treated, shifting explanations, and who replaced you. That's the work we do."},
+    {"q": "I asked for an accommodation and things went downhill. Is that a case?", "a": "Often, yes. California requires employers to engage in a good-faith \"interactive process\" and provide reasonable accommodations for disabilities, medical conditions, and pregnancy. Refusing, stalling, or punishing you for asking is actionable."},
+    {"q": "How long do I have to file?", "a": "{SOL}"},
+    {"q": "I still work there. Can I really do this?", "a": "Yes. Retaliation for asserting your rights is illegal and creates a second claim. Everything you tell us is confidential, and your employer won't hear from us until you decide."},
+    {"q": "What does it cost?", "a": "Nothing up front — ever. We front all costs, we only collect a fee if we recover money for you, and FEHA generally makes the employer pay your attorney's fees when you win."}
+  ],
+  "final": {"h": "Discriminated Against? Get a Free Answer Today.", "p": "Open 24/7. Confidential. If we don't win, you pay nothing."}
+}

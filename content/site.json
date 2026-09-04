@@ -1,0 +1,92 @@
+{
+  "firm_name": "Wilshire Law Firm",
+  "firm_legal": "Wilshire Law Firm, PLC",
+  "firm_tagline": "Personal Injury & Employment Attorneys",
+  "base_url": "https://results.wilshirelawfirm.com",
+  "base_url_note": "Set to the campaign subdomain you deploy to (CNAME → Vercel/Netlify). Never run ads to *.vercel.app / *.netlify.app.",
+  "main_site_url": "https://wilshirelawfirm.com",
+  "privacy_url": "https://wilshirelawfirm.com/privacy-policy/",
+  "privacy_note": "VERIFY this URL resolves on the firm's site before launch (required for Google Ads lead forms / TCPA consent language).",
+  "main_phone_display": "(800) 522-7274",
+  "main_phone_tel": "+18005227274",
+  "main_phone_vanity": "1-800-52-CRASH",
+  "phone_note": "Pages display each office's local number (local numbers lift call-through rate). Set site.campaign_phone to force ONE tracking number on every page instead. CallRail swap.js (callrail_swap_url) then swaps whatever is displayed for per-session numbers.",
+  "campaign_phone_display": "",
+  "campaign_phone_tel": "",
+  "founder": {
+    "name": "Bobby Saadian, Esq., JD/MBA",
+    "short": "Bobby Saadian",
+    "title": "Founder & President",
+    "initials": "BS"
+  },
+  "stats": {
+    "recovered": "$3B+",
+    "recovered_label": "Recovered for clients",
+    "rating": "4.9",
+    "reviews": "2,500+",
+    "reviews_exact": "2,521",
+    "reviews_label": "Google reviews",
+    "attorneys": "100+",
+    "attorneys_label": "Attorneys on your side",
+    "top100": "59 of 100",
+    "top100_label": "Top CA injury settlements, 2024",
+    "since": "2007",
+    "offices": "20"
+  },
+  "stats_note": "Sources in research/firm-dossier.md. Google rating/count pulled 2026-09-04 from the Los Angeles HQ profile. '59 of the top 100 personal injury settlements in California in 2024' is the firm's own TopVerdict claim — VERIFY before running ads.",
+  "google_reviews_url": "https://www.google.com/maps?cid=433900406255867507",
+  "trust_badges": [
+    "Best Law Firms 2020–2026",
+    "AV Preeminent Rated",
+    "National Trial Lawyers Top 100",
+    "Super Lawyers",
+    "Official PI Law Firm of the LA Chargers",
+    "BBB Accredited"
+  ],
+  "trust_badges_employment": [
+    "Tier 1 · Labor & Employment Litigation (Best Law Firms 2026)",
+    "Best Law Firms 2020–2026",
+    "AV Preeminent Rated",
+    "Super Lawyers",
+    "National Trial Lawyers Top 100",
+    "BBB Accredited"
+  ],
+  "attorneys": {
+    "saadian": {"name": "Bobby Saadian, Esq.", "title": "Founder & President · National Trial Lawyers Top 100", "initials": "BS"},
+    "yslas": {"name": "John G. Yslas, Esq.", "title": "Senior Partner · Chair, Employment Wage & Hour Class Action", "initials": "JY"},
+    "fattahi": {"name": "Arrash T. Fattahi, Esq.", "title": "Partner · Labor & Employment Litigation", "initials": "AF"},
+    "marquez": {"name": "Justin F. Marquez, Esq.", "title": "Senior Partner", "initials": "JM"}
+  },
+  "attorneys_note": "Headshots could not be pulled (firm site egress-blocked). Drop photos into assets/img/attorneys/<key>.jpg and the build will use them automatically instead of initials.",
+  "languages_line": "Se habla español — intake and consultations available in English and Spanish, 24/7.",
+  "response_promise": "A real person answers 24/7 — most callers reach an intake specialist in under a minute.",
+  "response_note": "VERIFY with intake. If they can promise a call-back window (e.g. '5 minutes'), say it — speed-to-lead is the biggest lever on paid lead conversion.",
+  "form": {
+    "endpoint": "",
+    "endpoint_note": "Full custom POST URL (Zapier / Make / HighLevel / Lawmatics / Lead Docket webhook). Takes precedence over formspree_id.",
+    "formspree_id": "",
+    "formspree_note": "LAUNCH BLOCKER unless deploying on Netlify: create a form at formspree.io, paste the ID here (formspree.io/f/THIS-PART), rebuild. Subject line per lead: 'WilshirePPC — <practice> — <city>'.",
+    "subject_prefix": "WilshirePPC",
+    "netlify": true,
+    "netlify_note": "On Netlify, forms work with zero config (submissions in the Netlify dashboard; add email/SMS notifications there). On Vercel or any other host you MUST set endpoint or formspree_id."
+  },
+  "gtm_id": "",
+  "gtm_note": "Paste the firm's GTM container (GTM-XXXXXXX). Pages push dataLayer events: call_click, lead_form_submit (on /thank-you/), lead_form_error, kw_variant. Fire Google Ads conversions on call_click and lead_form_submit. Count calls as conversions.",
+  "clarity_id": "",
+  "clarity_note": "Optional Microsoft Clarity project ID for session recordings + heatmaps (free).",
+  "callrail_swap_url": "",
+  "callrail_note": "Optional CallRail swap.js URL for dynamic number insertion. The swap target must match the displayed office number (or campaign_phone if set).",
+  "disclaimer_footer": "Attorney Advertising. This website is for general information only and is not legal advice. Contacting the firm does not create an attorney-client relationship. Prior results do not guarantee a similar outcome; every case is unique. \"No fee unless we win\" means no attorney fees unless we recover for you — court costs and case expenses may apply and are explained in your agreement before you sign. Attorney responsible for this advertisement: Bobby Saadian, Esq., Wilshire Law Firm, PLC, 660 S. Figueroa St., Sky Lobby, Los Angeles, CA 90017. Attorneys are licensed by state; not all attorneys are licensed in every state.",
+  "consent_text": "I agree that Wilshire Law Firm may call or text me at this number about my case, including by automated means. Consent isn't required to hire the firm — you can simply call us. Msg/data rates may apply.",
+  "results_fine": "Prior results do not guarantee a similar outcome. Every case is unique, and results depend on the facts and applicable law. Amounts shown are gross recoveries before fees and costs.",
+  "sol": {
+    "CA": {
+      "injury": "In California you generally have <b>two years</b> from the accident to file a lawsuit (Code of Civil Procedure §335.1) — and if a city, county, or state agency is involved (a bus, a public road, a government vehicle) you may have as little as <b>six months</b> to file a claim. Evidence disappears far sooner: camera footage gets erased and witnesses move. The sooner we start, the stronger your case.",
+      "employment": "Deadlines are shorter than people think. Discrimination, harassment, and retaliation claims under California's Fair Employment and Housing Act must be filed with the Civil Rights Department within <b>three years</b>. Wrongful termination in violation of public policy generally carries a <b>two-year</b> deadline. Unpaid-wage claims reach back <b>three years</b> (up to four under the Unfair Competition Law). Some notice deadlines are far shorter — so get a free review now, not after the deadline passes."
+    },
+    "NV": {
+      "injury": "In Nevada you generally have <b>two years</b> from the accident to file a lawsuit (NRS 11.190) — and claims involving a government vehicle or public property carry their own notice rules. Evidence disappears far sooner: camera footage gets erased and witnesses move. The sooner we start, the stronger your case.",
+      "employment": "Nevada and federal discrimination claims generally must be filed with the Nevada Equal Rights Commission or the EEOC within <b>300 days</b>. Wage claims carry their own deadlines. Don't wait — get a free review now."
+    }
+  }
+}

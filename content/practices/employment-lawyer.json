@@ -1,0 +1,85 @@
+{
+  "slug": "employment-lawyer",
+  "group": "employment",
+  "name": "Employment Law",
+  "kw_noun": "Employment",
+  "title_noun": "Employment Lawyers",
+  "meta_title": "{City} Employment Lawyers | No Fee Unless We Win | Wilshire Law Firm",
+  "meta_description": "Fired, harassed, or cheated out of pay in {City}? Wilshire Law Firm's employment attorneys have recovered $3B+ for clients. Free 24/7 case review. No fee unless we win.",
+  "eyebrow": "{City} Employment Attorneys · Free 24/7 Case Review",
+  "h1": {"pre": "Fired, Harassed, or Cheated Out of Pay in ", "post": "?"},
+  "h1_state": {"pre": "Fired, Harassed, or Cheated Out of Pay in ", "post": "?"},
+  "hero_sub": "Your employer already has lawyers. Now you do too — 100+ attorneys who've recovered over $3 billion, and you pay nothing unless we win.",
+  "benefits": ["No Fee Unless We Win", "Free & Confidential Review", "Se Habla Español"],
+  "form": {
+    "title": "What's Your Case Worth?",
+    "sub": "Free & confidential · No obligation · 60 seconds",
+    "q1": {"key": "issue", "label": "What happened at work?", "options": ["I was fired or laid off", "I'm not being paid correctly", "Harassment or discrimination", "Retaliation for speaking up", "Something else"]},
+    "q2": {"key": "when", "label": "When did it happen?", "options": ["Within the last 30 days", "1–6 months ago", "6–12 months ago", "Over a year ago"]}
+  },
+  "form_quote": {"text": "Wilshire Law turned a stressful workplace situation into a positive outcome. My settlement was more than I expected and the entire law team was kind and responsive.", "by": "Joseph Breeden · Google Review"},
+  "urgency": {
+    "eyebrow": "Read This Before You Sign Anything",
+    "h": "Your Employer Is Already Building Their Side of the Story",
+    "sub": "You didn't ask for this. But the clock started the day it happened — and the other side isn't waiting.",
+    "cards": [
+      {"t": "HR is not on your side", "p": "HR's job is to protect the company. The \"exit interview,\" the severance offer, the \"just sign here\" — every one of them is designed to close the door on your claim before you know it's worth anything."},
+      {"t": "Evidence is disappearing right now", "p": "Emails get purged. Schedules get rewritten. Witnesses get \"coached.\" The sooner a lawyer sends a preservation demand, the more of your case survives."},
+      {"t": "The deadline is real", "p": "California gives you a window to act — and some notice deadlines are shorter than people think. Miss it and the strongest case in the world is worth exactly zero."}
+    ]
+  },
+  "results": [
+    {"amount": "$3B+", "label": "Recovered for clients", "tag": "Firm-wide"},
+    {"amount": "$75M+", "label": "Employment settlements by one partner since 2023", "tag": "Wage & hour · PAGA"},
+    {"amount": "Tier 1", "label": "Labor & Employment Litigation, Los Angeles", "tag": "Best Law Firms 2026"},
+    {"amount": "4.9★", "label": "2,500+ Google reviews", "tag": "Clients who'd recommend us"}
+  ],
+  "result_highlight": "In 2025, Senior Partner <b>John G. Yslas</b> tried a wage-and-hour class and PAGA action all the way to verdict — and the employer paid a <b>multimillion-dollar settlement</b> after losing at trial. Employers know which firms fold before trial. This isn't one of them.",
+  "value": {
+    "eyebrow": "What You Could Recover",
+    "h": "This Is What California Law Says They Owe You",
+    "sub": "Not \"maybe.\" Not \"if they feel like it.\" These are the damages the law puts on the table when an employer breaks it.",
+    "items": [
+      {"t": "Lost wages & benefits", "p": "Back pay from the day it happened, plus front pay for the income you'll lose while you rebuild — health coverage, bonuses, and retirement contributions included."},
+      {"t": "Emotional distress", "p": "Anxiety, humiliation, sleepless nights — California's Fair Employment and Housing Act lets a jury put a dollar figure on what they did to you."},
+      {"t": "Penalties that stack", "p": "Late final paycheck? Up to 30 days of wages in waiting-time penalties. Missed meal or rest breaks? An extra hour of pay for each one — for every shift, for years."},
+      {"t": "Punitive damages", "p": "When an employer acts with malice or fraud, juries can award punitive damages designed to make sure they never do it again."},
+      {"t": "Your attorney's fees — paid by them", "p": "Many California employment laws shift attorney's fees to the employer when you win. That's why we can afford to charge you nothing up front."}
+    ]
+  },
+  "offer": {
+    "h": "Here's the Deal — and It's Free",
+    "includes": ["A confidential review of what happened, by a real employment lawyer's team", "A straight answer on whether you have a case — and roughly what it's worth", "A plan for what to say (and not say) to HR, unemployment, and your old boss", "We front every cost of investigating and filing your case"],
+    "guarantee": "You pay <b>nothing</b> unless we win. Not a retainer. Not an hourly bill. Not a dime. If we don't recover money for you, our fee is zero — so the only way you lose by calling is by not calling."
+  },
+  "how": [
+    {"t": "Tell us what happened", "p": "Call 24/7 or send the 60-second form. A real person — not a phone tree — hears your story and tells you where you stand. Free, confidential, no obligation."},
+    {"t": "We take over the fight", "p": "We send the preservation demand, pull your personnel file, gather witnesses, and handle every call from the company's lawyers. You go back to living your life."},
+    {"t": "You get paid", "p": "We negotiate for the maximum — and take them to trial if they won't pay it. Employers who see our name on the letterhead know we don't bluff."}
+  ],
+  "why": {
+    "eyebrow": "Why Employers Settle With Us",
+    "h": "We Know Their Playbook — Because We Beat It Every Week",
+    "paras": [
+      "Wilshire Law Firm's employment department is led by <b>John G. Yslas</b>, a Senior Partner with three decades of experience who chairs the firm's Wage & Hour Class Action group, alongside Partner <b>Arrash T. Fattahi</b>, who has secured more than $75 million in employment settlements since 2023. Best Law Firms ranks the firm <b>Tier 1</b> in Los Angeles for Labor & Employment Litigation.",
+      "Founded in 2007 by <b>Bobby Saadian</b>, the firm has grown to more than 100 attorneys and 500 legal professionals — the kind of firepower employers expect to see across the table from a Fortune 500 company, not from the employee they thought they could push around."
+    ],
+    "attorneys": ["yslas", "fattahi", "saadian"],
+    "mult": {"big": "$0", "text": "<b>What you pay up front.</b> Your employer is paying their lawyers by the hour. You'll never see a bill from us unless we win."},
+    "chips": ["Tier 1 · Labor & Employment", "Trial-tested — we don't bluff", "100+ attorneys · 20 offices", "Se habla español"]
+  },
+  "testimonials": [
+    {"text": "My boss denied my request for extended leave for a major surgery. I tried to fight it but got fired. A friend, who had a similar experience, recommended Wilshire Law. They quickly secured a settlement for me.", "by": "Jacob Riley · Google Review"},
+    {"text": "I got fired for reporting harassment from a co-worker. The team at Wilshire Law stepped in, fought for justice, and got me a quick settlement. I'm thankful for how smoothly they handled everything.", "by": "Fredrick Kuhn · Google Review"},
+    {"text": "I contacted them after discovering that my company was not paying overtime as required. The lawyer I worked with was pleasant, educated, and did not make me feel like I was simply another case. They battled hard for me, and I ended up with an outcome that I am extremely pleased with.", "by": "Amber Rousey · Google Review"}
+  ],
+  "faq": [
+    {"q": "How much does an employment lawyer cost?", "a": "Nothing up front — ever. The consultation is free, we front the costs of building your case, and we only collect a fee if we recover money for you. Many California employment laws also make the employer pay your attorney's fees when you win. No recovery, no fee."},
+    {"q": "I was an \"at-will\" employee. Can I still have a case?", "a": "Yes. At-will means they can fire you for no reason — not for an illegal reason. Firing you because of your age, race, gender, pregnancy, disability, medical leave, or because you complained about something illegal is still wrongful termination. Let us look before you assume you have nothing."},
+    {"q": "They offered me severance. Should I sign it?", "a": "Not before a free review. Severance agreements almost always include a release of every claim you have — and employers rarely offer severance unless they're worried about something. A 60-second call can tell you whether that offer is a fair deal or a fraction of what you're owed."},
+    {"q": "How long do I have to file?", "a": "{SOL}"},
+    {"q": "Will I have to go to court?", "a": "Most cases settle without a trial. But employers track which firms actually try cases — and pay more to avoid facing them. Our employment team has taken wage-and-hour class actions to verdict. When they know you'll go the distance, they settle."},
+    {"q": "Can my employer retaliate against me for calling a lawyer?", "a": "Retaliating against you for asserting your rights is itself illegal — and it becomes a second claim on top of the first. Everything you tell us is confidential. Your employer will not hear from us until you decide you want them to."}
+  ],
+  "final": {"h": "Talk to an Employment Lawyer Today — Free", "p": "Open 24/7, 365 days a year. Confidential. If we don't win, you pay nothing."}
+}

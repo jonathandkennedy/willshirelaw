@@ -1,0 +1,85 @@
+{
+  "slug": "slip-and-fall-lawyer",
+  "group": "injury",
+  "name": "Slip & Fall / Premises",
+  "kw_noun": "Slip and Fall",
+  "title_noun": "Slip & Fall Lawyers",
+  "meta_title": "{City} Slip & Fall Lawyers | Premises Liability · No Fee Unless We Win | Wilshire Law Firm",
+  "meta_description": "Hurt in a fall at a store, apartment, or property in {City}? Wilshire Law Firm's premises liability attorneys have recovered $3B+ for clients. Free 24/7 case review. No fee unless we win.",
+  "eyebrow": "{City} Slip & Fall Attorneys · Free 24/7 Case Review",
+  "h1": {"pre": "Injured in a Fall in ", "post": "? It Wasn't Clumsiness. It Was Negligence."},
+  "h1_state": {"pre": "Injured in a Fall in ", "post": "? It Wasn't Clumsiness. It Was Negligence."},
+  "hero_sub": "Wet floors, broken steps, bad lighting, no warning sign. Property owners are required to keep you safe — and when they don't, they pay. No fee unless we win.",
+  "benefits": ["No Fee Unless We Win", "Free Case Review", "Se Habla Español"],
+  "form": {
+    "title": "What's Your Case Worth?",
+    "sub": "Free & confidential · No obligation · 60 seconds",
+    "q1": {"key": "where", "label": "Where did you fall?", "options": ["Store, restaurant, or business", "Apartment or rental property", "Sidewalk, parking lot, or public property", "Hotel, gym, or venue", "Somewhere else"]},
+    "q2": {"key": "injured", "label": "Were you injured?", "options": ["Yes — I've seen a doctor", "Yes — but not treated yet", "I'm not sure"]}
+  },
+  "form_quote": {"text": "I had a slip and fall injury, and I was pretty shaken up. The Wilshire team took care of everything from start to finish. They got me a great result.", "by": "Dylan Wright · Google Review"},
+  "urgency": {
+    "eyebrow": "What the Property Owner Is Doing Right Now",
+    "h": "The Spill Was Cleaned Up in Minutes. The Footage Is Next.",
+    "sub": "You didn't ask to get hurt buying groceries. But the store's insurer has a checklist — and it starts with making the hazard disappear.",
+    "cards": [
+      {"t": "Surveillance footage gets overwritten", "p": "Most business cameras loop every 7–30 days. The video that shows the puddle sat there for an hour — and nobody put out a cone — is gone unless a lawyer demands it now."},
+      {"t": "The incident report is their document", "p": "The manager who was so concerned wrote a report for the insurance company, not for you. \"Customer stated she wasn't looking where she was going\" is a classic. Don't sign, don't guess — call us."},
+      {"t": "They will call it your fault", "p": "\"Open and obvious.\" \"Wrong shoes.\" \"Wasn't paying attention.\" Premises cases turn on proving the owner knew — or should have known — about the hazard. We know how to prove it."}
+    ]
+  },
+  "results": [
+    {"amount": "$3B+", "label": "Recovered for clients", "tag": "Firm-wide"},
+    {"amount": "$36,000,000", "label": "Single-plaintiff settlement", "tag": "Fresno County"},
+    {"amount": "$17,120,000", "label": "Verdict · 85-year-old struck by bus", "tag": "Trial"},
+    {"amount": "59 of 100", "label": "Top California injury settlements", "tag": "2024 · TopVerdict"}
+  ],
+  "result_highlight": "Under California law, property owners must inspect for hazards and fix or warn about them. When a grocery store, landlord, or hotel skips that duty and someone gets hurt, they owe <b>medical bills, lost wages, and pain and suffering</b>. In 2024 we secured <b>59 of the state's top 100 injury settlements</b>.",
+  "value": {
+    "eyebrow": "What You Could Recover",
+    "h": "A Fall Can Change Everything. So Can a Case.",
+    "sub": "Broken hips, wrists, and backs. Concussions. For older adults, a fall can be life-altering. California law says the owner pays for all of it.",
+    "items": [
+      {"t": "Every medical bill — past and future", "p": "ER, imaging, surgery, hardware, physical therapy, and the follow-up care years from now. Priced by medical experts, not by the store's adjuster."},
+      {"t": "Lost income & earning capacity", "p": "The work you missed while healing — and the work you can't do anymore if the injury is permanent."},
+      {"t": "Pain and suffering", "p": "Chronic pain, limited mobility, the independence you lost. No cap on these damages in most California injury cases."},
+      {"t": "Home care & assistance", "p": "If you needed help at home — a caregiver, a family member who took time off, mobility equipment — that's part of the claim."},
+      {"t": "Wrongful death damages", "p": "If a fall took someone you love, the family can recover funeral costs, lost support, and the loss of companionship and care."}
+    ]
+  },
+  "offer": {
+    "h": "Here's the Deal — and It's Free",
+    "includes": ["A free review of your fall by a premises liability lawyer's team, 24/7", "Immediate preservation demands for surveillance footage, incident reports, and maintenance logs", "A realistic range of what your case is worth — before you sign anything", "We front every cost — investigators, safety experts, filing fees"],
+    "guarantee": "You pay <b>nothing</b> unless we win. If we don't recover money for you, our fee is zero. The only way you lose by calling is by not calling."
+  },
+  "how": [
+    {"t": "Tell us what happened", "p": "Call 24/7 or send the 60-second form. A real person hears your story and tells you where you stand. Free, no obligation."},
+    {"t": "We lock down the evidence and take over", "p": "Preservation demands go out immediately for footage, reports, and maintenance records. We handle every adjuster call and help coordinate medical care — while we front every cost."},
+    {"t": "You get paid", "p": "We negotiate for the maximum — and take them to trial if they won't pay it. Property insurers know which firms fold before trial. This isn't one of them."}
+  ],
+  "why": {
+    "eyebrow": "Why Insurers Pay Us More",
+    "h": "One of California's Largest Injury Firms — on a Fall Case",
+    "paras": [
+      "<b>Bobby Saadian</b> founded Wilshire Law Firm in 2007 and built it into one of the largest injury firms in California: 100+ attorneys, 500+ legal professionals, 20 offices, and more than $3 billion recovered. Premises cases are won on evidence and expert testimony — and we have the resources to bring both.",
+      "Best Lawyers has named the firm to \"Best Law Firms\" seven years running, and in 2024 it secured 59 of the top 100 personal injury settlements in California. Property insurers know we'll try the case if they don't pay."
+    ],
+    "attorneys": ["saadian"],
+    "mult": {"big": "4.4x", "text": "Injury victims with a lawyer recover <b>$77,600 on average vs. $17,600</b> without one, according to a Martindale-Nolo consumer study."},
+    "chips": ["Rapid footage preservation", "59 of CA's top 100 settlements · 2024", "A real person answers 24/7", "Se habla español"]
+  },
+  "testimonials": [
+    {"text": "I had a slip and fall injury, and I was pretty shaken up. The Wilshire team took care of everything from start to finish. They provided detailed explanations, answered all my questions, and were always there when I needed them. Their professionalism is unmatched. They got me a great result.", "by": "Dylan Wright · Google Review"},
+    {"text": "After falling on unsafe steps at a hotel and injuring my hip, I contacted Wilshire Law Firm for legal help. They were respectful, responsive, and very organized. I felt like my case truly mattered to them.", "by": "Lewis Williams · Google Review"},
+    {"text": "I lost my mother in a grocery store fall. I contacted Wilshire Law Firm because they are the biggest I could find. The girls Maria and Brenda were very caring, and the attorney was very kind and professional. This law firm is on top of things and I am grateful to the whole team for putting my mind at ease.", "by": "Ramona Caudillo · Google Review"}
+  ],
+  "faq": [
+    {"q": "Do I really have a case just from falling?", "a": "If you fell because of a hazard the owner knew about or should have found — a spill, a broken step, poor lighting, an uneven walkway, ice, debris — and you were hurt, yes. The question is what they knew and when. That's what the footage and maintenance logs show, and it's why we act fast."},
+    {"q": "I didn't report it to the store when it happened.", "a": "You can still have a case. Go get medical care, write down everything you remember, keep the shoes and clothes you were wearing, and call us. We'll figure out how to document it."},
+    {"q": "The store's insurer offered to pay my medical bills.", "a": "Don't sign anything. That offer almost always comes with a release of every claim you have — including the pain, lost work, and future care they're not mentioning. Get a free review first."},
+    {"q": "How long do I have to file?", "a": "{SOL}"},
+    {"q": "I fell on city property. Is that different?", "a": "Yes — and urgently. Claims against a city, county, or state agency generally must be filed within six months. If you fell on a public sidewalk, in a park, or at a government building, call today."},
+    {"q": "What does it cost?", "a": "Nothing up front — ever. We front every cost of building your case and only collect a fee if we recover money for you. No recovery, no attorney fee."}
+  ],
+  "final": {"h": "Talk to a Slip & Fall Lawyer Today — Free", "p": "Open 24/7, 365 days a year. If we don't win, you pay nothing."}
+}

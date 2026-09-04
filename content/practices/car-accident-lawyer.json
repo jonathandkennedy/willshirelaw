@@ -1,0 +1,85 @@
+{
+  "slug": "car-accident-lawyer",
+  "group": "injury",
+  "name": "Car Accident",
+  "kw_noun": "Car Accident",
+  "title_noun": "Car Accident Lawyers",
+  "meta_title": "{City} Car Accident Lawyers | $3B+ Recovered · No Fee Unless We Win | Wilshire Law Firm",
+  "meta_description": "Hurt in a {City} car accident? Wilshire Law Firm has recovered $3B+ and won 59 of California's top 100 injury settlements in 2024. Free 24/7 case review. No fee unless we win.",
+  "eyebrow": "{City} Car Accident Attorneys · Free 24/7 Case Review",
+  "h1": {"pre": "Hurt in a ", "post": " Car Accident?"},
+  "h1_state": {"pre": "Hurt in a ", "post": " Car Accident?"},
+  "hero_sub": "The insurance company's first offer is a test — to see if you know what your case is worth. We do. $3 billion recovered, and you pay nothing unless we win.",
+  "benefits": ["No Fee Unless We Win", "Free Case Review", "Se Habla Español"],
+  "form": {
+    "title": "What's Your Case Worth?",
+    "sub": "Free & confidential · No obligation · 60 seconds",
+    "q1": {"key": "when", "label": "When did the accident happen?", "options": ["Just happened", "Within the last 3 months", "3–12 months ago", "Over a year ago"]},
+    "q2": {"key": "injured", "label": "Were you injured?", "options": ["Yes — I've seen a doctor", "Yes — but not treated yet", "I'm not sure"]}
+  },
+  "form_quote": {"text": "I got into a car accident and felt completely overwhelmed by medical bills and insurance calls. Wilshire kept me updated every step of the way.", "by": "Sajan Kumar · Google Review"},
+  "urgency": {
+    "eyebrow": "Read This Before You Talk to the Adjuster",
+    "h": "The Adjuster Is Friendly Because It Works",
+    "sub": "You didn't ask for this. But the other driver's insurer already assigned someone whose bonus depends on paying you less.",
+    "cards": [
+      {"t": "The fast, friendly lowball", "p": "A quick check for your \"inconvenience\" — before the MRI, before the specialist, before you know what this will really cost. Sign it, and the claim is closed forever."},
+      {"t": "The recorded statement", "p": "\"Just a few questions for our file.\" Every word gets mined for a reason to blame you or shrink your injury. You are not required to give one. Talk to us first."},
+      {"t": "Evidence is disappearing", "p": "Intersection cameras overwrite in days. Dashcam footage gets deleted. The other car gets repaired. Witnesses move. We send preservation demands the day you hire us."}
+    ]
+  },
+  "results": [
+    {"amount": "$35,000,000", "label": "Jury verdict · semi-truck vs. passenger car", "tag": "Los Angeles freeway"},
+    {"amount": "$36,000,000", "label": "Single-plaintiff settlement", "tag": "Fresno County"},
+    {"amount": "$28,700,000", "label": "Pedestrian struck by vehicle", "tag": "#1 in the U.S. · 2019"},
+    {"amount": "$18,500,000", "label": "Motorcycle crash · spinal injuries", "tag": "Judgment"}
+  ],
+  "result_highlight": "In 2024, Wilshire Law Firm secured <b>59 of the top 100 personal injury settlements in California</b>. Adjusters keep a list of which firms actually try cases — and pay those firms more to stay out of court. We're on that list.",
+  "value": {
+    "eyebrow": "What You Could Recover",
+    "h": "Your Case Is Worth More Than the Repair Bill",
+    "sub": "Adjusters hope you'll settle for the ER bill and a bumper. California law says you're owed the whole picture.",
+    "items": [
+      {"t": "Every medical bill — past and future", "p": "ER, imaging, surgery, physical therapy, chiropractic, the injections you'll need next year. We work with medical experts to price the whole road, not just the first mile."},
+      {"t": "Lost income & earning capacity", "p": "The shifts you missed. The promotion you can't chase. If you can't go back to the same work, the difference for the rest of your career."},
+      {"t": "Pain and suffering", "p": "Whiplash that won't quit. Fear every time you merge. The weekends you can't spend the way you used to. No cap in most California injury cases."},
+      {"t": "Your car, your rental, your out-of-pocket", "p": "We have an entire department dedicated to property damage — total loss value, diminished value, rental, and every receipt in between."},
+      {"t": "Punitive damages", "p": "Drunk driver? Street racing? Texting at 80 mph? Juries can award punitive damages designed to punish — on top of everything else."}
+    ]
+  },
+  "offer": {
+    "h": "Here's the Deal — and It's Free",
+    "includes": ["A free review of your crash by a car accident lawyer's team, 24/7", "A realistic range of what your case is worth — before you sign anything", "We handle every adjuster call and help coordinate your medical care, even with no health insurance", "We front every cost — investigators, experts, filing fees"],
+    "guarantee": "You pay <b>nothing</b> unless we win. If we don't recover money for you, our fee is zero. The only way you lose by calling is by not calling."
+  },
+  "how": [
+    {"t": "Tell us what happened", "p": "Call 24/7 or send the 60-second form. A real person — not a phone tree — hears your story and tells you where you stand. Free, no obligation."},
+    {"t": "We take over the fight", "p": "We handle every adjuster call, gather the evidence, deal with your car, and help coordinate medical care — while we front every cost. You focus on healing."},
+    {"t": "You get paid", "p": "We negotiate for the maximum — and take them to trial if they won't pay it. Insurers know which firms fold before trial. This isn't one of them."}
+  ],
+  "why": {
+    "eyebrow": "Why Insurers Pay Us More",
+    "h": "We Know the Insurance Playbook — and We Take Cases to Verdict",
+    "paras": [
+      "<b>Bobby Saadian</b> founded Wilshire Law Firm in 2007 and built it into one of the largest personal injury firms in California: 100+ attorneys, 500+ legal professionals, 20 offices, and more than $3 billion recovered. His $35 million jury verdict for a driver hit by a semi-truck on a Los Angeles freeway came after a two-week trial the insurer thought he'd never take.",
+      "Best Lawyers has named the firm to \"Best Law Firms\" seven years running, and it's the Official Personal Injury Law Firm of the Los Angeles Chargers. When an adjuster sees our name on the file, the first offer changes."
+    ],
+    "attorneys": ["saadian"],
+    "mult": {"big": "4.4x", "text": "Crash victims with a lawyer recover <b>$77,600 on average vs. $17,600</b> without one, according to a Martindale-Nolo consumer study."},
+    "chips": ["59 of CA's top 100 settlements · 2024", "Dedicated property-damage team", "A real person answers 24/7", "Se habla español"]
+  },
+  "testimonials": [
+    {"text": "I cannot recommend this law firm highly enough! After my car accident, I was stressed out and unsure of what to do, but they stepped in and handled my entire claim with incredible speed and professionalism. They settled everything much quicker than I ever expected.", "by": "Tiffany Lopez · Google Review"},
+    {"text": "I reached out to them after my car accident because I didn't know what to do. They handled it all, kept me updated every step of the way, and got me the compensation I deserved. Highly recommend.", "by": "Bobby Perry · Google Review"},
+    {"text": "One of the best law firms out here in Southern California. They actually do research on everything from top to bottom and help you get a good settlement when you're going through a tough, painful moment of being injured. They help you step by step.", "by": "Oscar Torres · Google Review"}
+  ],
+  "faq": [
+    {"q": "What does it cost to hire you?", "a": "Nothing up front — ever. The consultation is free, we front every cost of building your case, and we only collect an attorney fee if we recover money for you. No recovery, no attorney fee."},
+    {"q": "The insurance company already offered me money. Should I take it?", "a": "Not before a free case review. First offers are low by design — adjusters are trained to settle before you know what your claim is worth. Signing usually ends your claim permanently, even if your injuries get worse."},
+    {"q": "The other driver was uninsured. Do I still have a case?", "a": "Often, yes. Your own uninsured/underinsured motorist coverage may pay — and your own insurer will fight you just as hard as the other side's would. We handle UM/UIM claims every day."},
+    {"q": "How long do I have to file?", "a": "{SOL}"},
+    {"q": "I don't have health insurance. Can I still get treated?", "a": "Yes. We help clients get the care they need — often on a lien, so providers are paid from the settlement instead of out of your pocket. Don't skip treatment; it hurts your health and your case."},
+    {"q": "What if I was partly at fault?", "a": "You can still recover. California uses pure comparative negligence — your recovery is reduced by your share of fault, even if it's more than half. Don't accept the insurer's version of who's to blame."}
+  ],
+  "final": {"h": "Talk to a Car Accident Lawyer Today — Free", "p": "Open 24/7, 365 days a year. If we don't win, you pay nothing."}
+}

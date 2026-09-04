@@ -1,0 +1,85 @@
+{
+  "slug": "wrongful-death-lawyer",
+  "group": "injury",
+  "name": "Wrongful Death",
+  "kw_noun": "Wrongful Death",
+  "title_noun": "Wrongful Death Lawyers",
+  "meta_title": "{City} Wrongful Death Lawyers | Compassionate · No Fee Unless We Win | Wilshire Law Firm",
+  "meta_description": "Lost a loved one to someone's negligence in {City}? Wilshire Law Firm's wrongful death attorneys handle every case with compassion and have recovered $3B+. Free confidential review. No fee unless we win.",
+  "eyebrow": "{City} Wrongful Death Attorneys · Free, Confidential Consultation",
+  "h1": {"pre": "Lost Someone in ", "post": " Because of Someone Else's Negligence?"},
+  "h1_state": {"pre": "Lost Someone in ", "post": " Because of Someone Else's Negligence?"},
+  "hero_sub": "Nothing we do can bring them back. What we can do is make sure the people responsible answer for it — and that your family is provided for. You pay nothing unless we win.",
+  "benefits": ["No Fee Unless We Win", "Compassionate & Confidential", "Se Habla Español"],
+  "form": {
+    "title": "We're So Sorry. Let Us Help.",
+    "sub": "Free & confidential · No pressure · A real person will call you",
+    "q1": {"key": "cause", "label": "What caused your loved one's death?", "options": ["A vehicle accident", "A workplace or construction accident", "A fall or unsafe property", "Medical or nursing home negligence", "Something else"]},
+    "q2": {"key": "when", "label": "When did it happen?", "options": ["Within the last month", "1–6 months ago", "6–12 months ago", "Over a year ago"]}
+  },
+  "form_quote": {"text": "I lost my mother in a grocery store fall. The team was very caring, and the attorney was very kind and professional. They put my mind at ease so I know they are investigating on my mother's behalf.", "by": "Ramona Caudillo · Google Review"},
+  "urgency": {
+    "eyebrow": "What Families Need to Know",
+    "h": "While You're Grieving, Their Insurer Is Working",
+    "sub": "You should be able to focus on your family. Unfortunately, the people responsible are already focused on limiting what they owe.",
+    "cards": [
+      {"t": "The early call from the insurer", "p": "It sounds like sympathy. It's a settlement attempt — made while you're least able to think about numbers. Anything you sign in those weeks closes the claim forever."},
+      {"t": "Evidence doesn't wait for grief", "p": "Vehicles get scrapped. Footage gets overwritten. Witnesses scatter. A lawyer can preserve all of it now, so you don't have to think about it."},
+      {"t": "Deadlines still apply", "p": "California gives families a window to file — and if a government agency was involved, it can be as short as six months. We'll handle the timeline so you don't have to carry it."}
+    ]
+  },
+  "results": [
+    {"amount": "$3B+", "label": "Recovered for clients and families", "tag": "Firm-wide"},
+    {"amount": "$36,000,000", "label": "Single-plaintiff settlement", "tag": "Fresno County"},
+    {"amount": "$35,000,000", "label": "Jury verdict · semi-truck collision", "tag": "Two-week trial"},
+    {"amount": "$28,700,000", "label": "Pedestrian struck by vehicle", "tag": "#1 in the U.S. · 2019"}
+  ],
+  "result_highlight": "California's wrongful death law lets a surviving spouse, children, and other dependents recover for <b>lost financial support, funeral and medical costs, and the loss of love, companionship, and guidance</b> — and, through the estate, the pain your loved one suffered. We build these cases with the resources of one of the state's largest injury firms.",
+  "value": {
+    "eyebrow": "What Your Family Can Recover",
+    "h": "The Law Cannot Undo It. It Can Make Sure Your Family Is Provided For.",
+    "sub": "These are the damages California law makes available to the family of someone killed by negligence.",
+    "items": [
+      {"t": "Lost financial support", "p": "The income, benefits, and household contributions your loved one would have provided over a lifetime — calculated by economic experts, not by an adjuster."},
+      {"t": "Funeral & medical expenses", "p": "Burial costs and any medical bills from the final injury or illness."},
+      {"t": "Loss of love, companionship & guidance", "p": "California allows families to recover for the relationship itself — the care, comfort, protection, and guidance that was taken from a spouse, a child, a parent."},
+      {"t": "The survival claim", "p": "Through the estate, the pain and suffering your loved one endured before passing, and — where the conduct was reckless — punitive damages to punish it."},
+      {"t": "Accountability", "p": "A trucking company that pushed a driver past his limits. A property owner who ignored a hazard for months. A verdict says out loud what happened — and makes it less likely to happen to the next family."}
+    ]
+  },
+  "offer": {
+    "h": "How We Help — At No Cost to Your Family",
+    "includes": ["A private, unhurried conversation with a team that has walked families through this before", "We take over every call from insurers and the other side, immediately", "We preserve the evidence and handle every deadline so you can focus on your family", "We front every cost — investigation, experts, filing fees"],
+    "guarantee": "Your family pays <b>nothing</b> unless we recover for you. There is no retainer and no bill. If we don't win, our fee is zero."
+  },
+  "how": [
+    {"t": "Talk to us — when you're ready", "p": "Call 24/7 or send the form. A real person listens, answers your questions honestly, and explains what a wrongful death claim involves. No pressure, no obligation."},
+    {"t": "We carry it from here", "p": "Preservation demands, investigators, experts, every insurer and defense lawyer — we handle it all and keep you informed as much or as little as you want."},
+    {"t": "Your family is provided for", "p": "We negotiate for the maximum — and take them to trial if they won't pay it. The other side knows we will."}
+  ],
+  "why": {
+    "eyebrow": "Why Families Trust Us",
+    "h": "Compassion for You. Zero Mercy for the Other Side.",
+    "paras": [
+      "<b>Bobby Saadian</b> founded Wilshire Law Firm in 2007 and built it into one of the largest injury firms in California: 100+ attorneys, 500+ legal professionals, 20 offices, and more than $3 billion recovered. Wrongful death cases demand both — a team that treats your family with care, and litigators the other side genuinely fears.",
+      "Best Lawyers has named the firm to \"Best Law Firms\" seven years running. In 2024 it secured 59 of the top 100 personal injury settlements in California, including catastrophic-injury and death cases. We take these cases to verdict when that's what justice requires."
+    ],
+    "attorneys": ["saadian"],
+    "mult": {"big": "$0", "text": "<b>What your family pays up front.</b> The other side is paying lawyers by the hour to limit what they owe you. You'll never see a bill from us unless we win."},
+    "chips": ["Compassionate, private handling", "We take over every insurer call", "Trial-tested litigators", "Se habla español"]
+  },
+  "testimonials": [
+    {"text": "I lost my mother in a grocery store fall, which caused her death. I had no idea what to do. I contacted Wilshire Law Firm because they are the biggest I could find. The girls Maria and Brenda really were very caring. A couple days later I received a flower arrangement for our mother's death from the law firm — I cried because my mother would have been so happy. The attorney was very kind and professional. I am grateful to the whole team for putting my mind at ease.", "by": "Ramona Caudillo · Google Review"},
+    {"text": "The gentleman I spoke to was so kind and compassionate! I could say so much more but those two words mean the most to me.", "by": "Julie Dover · Google Review"},
+    {"text": "I spoke to Zaire and he helped me understand what would happen and what to expect. He was also very polite and empathetic regarding my situation, and actually listened.", "by": "Kendra Brown · Google Review"}
+  ],
+  "faq": [
+    {"q": "Who can file a wrongful death claim in California?", "a": "Generally the surviving spouse or domestic partner, children, and — if there are none — other heirs such as parents or siblings. People who were financially dependent on the deceased, including stepchildren and parents, may also qualify. We'll walk you through who in your family can bring the claim."},
+    {"q": "Is it too soon to call?", "a": "It's never too soon to have someone protect your family's rights — and it costs nothing. You don't have to decide anything today. But evidence disappears and deadlines run, and we can quietly preserve both while you grieve."},
+    {"q": "The insurance company already reached out to us.", "a": "Please don't sign anything or give a recorded statement. Let us handle every call from here. Early offers in death cases are made precisely because families are in no state to evaluate them."},
+    {"q": "How long do we have to file?", "a": "{SOL}"},
+    {"q": "Will we have to go to court?", "a": "Most cases settle. But the other side pays more when they know the family's lawyers will try the case — and we do. If we go to trial, we prepare you and stand with you every step."},
+    {"q": "What does it cost?", "a": "Nothing up front — ever. We front every cost of building the case and only collect a fee if we recover for your family. No recovery, no fee."}
+  ],
+  "final": {"h": "Let Us Carry This for Your Family — Free & Confidential", "p": "Open 24/7. No pressure. If we don't win, you pay nothing."}
+}

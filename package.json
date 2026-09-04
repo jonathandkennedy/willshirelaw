@@ -1,0 +1,9 @@
+{
+  "name": "wilshire-ppc-landers",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "preview": "node build.mjs && npx --yes serve public -l 8000"
+  }
+}
