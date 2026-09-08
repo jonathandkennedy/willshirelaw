@@ -25,10 +25,14 @@ const BASE = (process.env.WLF_BASE || site.main_site_url).replace(/\/$/, "");  /
 const DRY = process.argv.includes("--dry-run"), FORCE = process.argv.includes("--force");
 const UA = { "User-Agent": "Mozilla/5.0 (compatible; WilshirePPC-asset-fetch/1.0)", "Accept": "text/html,image/*,*/*" };
 
+const DUMP = join(ROOT, "research/fetched"); mkdirSync(DUMP, { recursive: true });
 async function get(url, asBuffer = false) {
   const r = await fetch(url, { headers: UA, redirect: "follow" });
   if (!r.ok) throw new Error(`${r.status} ${url}`);
-  return asBuffer ? Buffer.from(await r.arrayBuffer()) : await r.text();
+  if (asBuffer) return Buffer.from(await r.arrayBuffer());
+  const html = await r.text();
+  try { writeFileSync(join(DUMP, url.replace(/^https?:\/\//, "").replace(/[^a-z0-9.-]+/gi, "_").slice(0, 120) + ".html"), html); } catch {}
+  return html;
 }
 const abs = (src, page) => { try { return new URL(src, page).href; } catch { return null; } };
 const decode = s => s.replace(/&amp;/g, "&").replace(/&#0?39;/g, "'").replace(/&quot;/g, '"');
@@ -51,14 +55,27 @@ function imgs(html, page) {
 const isJunk = i => /logo|icon|badge|award|sprite|placeholder|arrow|flag/i.test(i.src + " " + i.alt + " " + i.cls);
 /** Find the headshot for one attorney on a page: alt/src match first, then the nearest <img> to the
  *  attorney's name (within 500 chars of HTML) as long as no other listed attorney's name sits between. */
+/** Catch-all: any image URL anywhere in the document — including Next.js RSC / JSON payloads that
+ *  render client-side — whose filename carries the attorney's last (or distinctive first) name. */
+function urlScan(html, page, a) {
+  const txt = html.replace(/\\u0026/g, "&").replace(/\\+\//g, "/").replace(/%2F/gi, "/").replace(/%3A/gi, ":");
+  const re = /https?:\/\/[^"'\\\s<>()]+?\.(?:png|jpe?g|webp)(?:\?[^"'\\\s<>()]*)?/gi; let m;
+  while ((m = re.exec(txt))) {
+    const u = m[0]; const f = u.split("?")[0].split("/").pop().toLowerCase();
+    if (/logo|icon|badge|award|sprite|favicon|placeholder/.test(f)) continue;
+    if (f.includes(a.last) || (a.first.length > 3 && f.includes(a.first))) return abs(u, page);
+  }
+  return null;
+}
 function findHeadshot(html, page, a, others) {
   const list = imgs(html, page);
-  const direct = list.find(i => (i.alt + " " + i.src).toLowerCase().includes(a.last) && !isJunk(i));
+  const direct = list.find(i => (i.alt + " " + i.src).toLowerCase().includes(a.last) && !isJunk(i))
+    || list.find(i => a.first.length > 3 && (i.alt + " " + decodeURIComponent(i.src)).toLowerCase().includes(a.first) && !isJunk(i));
   if (direct) return direct.src;
   const lower = html.toLowerCase(); let pos = 0;
   while ((pos = lower.indexOf(a.last, pos)) !== -1) {
-    const before = list.filter(i => i.end <= pos && pos - i.end < 500).sort((x, y) => y.index - x.index)[0];
-    const after = list.filter(i => i.index >= pos && i.index - pos < 500).sort((x, y) => x.index - y.index)[0];
+    const before = list.filter(i => i.end <= pos && pos - i.end < 1500).sort((x, y) => y.index - x.index)[0];
+    const after = list.filter(i => i.index >= pos && i.index - pos < 1500).sort((x, y) => x.index - y.index)[0];
     for (const c of [before, after]) {
       if (!c || isJunk(c)) continue;
       const between = c.index < pos ? lower.slice(c.end, pos) : lower.slice(pos + a.last.length, c.index);
@@ -67,22 +84,32 @@ function findHeadshot(html, page, a, others) {
     }
     pos += a.last.length;
   }
-  return null;
+  return urlScan(html, page, a);
 }
 function extFor(url, contentType) {
-  const e = extname(new URL(url).pathname).toLowerCase();
+  const u = new URL(url); const inner = u.searchParams.get("url");   // /_next/image?url=<original>
+  const e = extname((inner ? new URL(inner, u).pathname : u.pathname).toLowerCase());
   if ([".jpg", ".jpeg", ".png", ".webp", ".svg"].includes(e)) return e === ".jpeg" ? ".jpg" : e;
   if (/svg/.test(contentType)) return ".svg"; if (/png/.test(contentType)) return ".png"; if (/webp/.test(contentType)) return ".webp"; return ".jpg";
 }
+const PLACEHOLDER_LOGO_MARK = "M10 18h7.5l5.2 21.4";   // path in the placeholder monogram shipped with the repo
+function isPlaceholder(file){ try { return existsSync(file) && readFileSync(file, "utf8").includes(PLACEHOLDER_LOGO_MARK); } catch { return false; } }
+function normalizeImg(url){
+  // Next.js image optimizer URLs: keep them (they're public) but cap the width so files stay small
+  if (/\/_next\/image/.test(url)) return url.replace(/([?&])w=\d+/, "$1w=1200");
+  return url;
+}
 async function save(url, destBase) {
+  url = normalizeImg(url);
   const r = await fetch(url, { headers: UA }); if (!r.ok) throw new Error(`${r.status} ${url}`);
   const ext = extFor(url, r.headers.get("content-type") || ""); const dest = destBase + ext;
-  if (existsSync(dest) && !FORCE) { console.log("  exists, skipping (use --force):", dest); return dest; }
+  if (existsSync(dest) && !FORCE && !isPlaceholder(dest)) { console.log("  exists, skipping (use --force):", dest); return dest; }
   if (DRY) { console.log("  would save", url, "→", dest); return dest; }
   writeFileSync(dest, Buffer.from(await r.arrayBuffer())); console.log("  saved", dest); return dest;
 }
 
-const attorneys = Object.entries(site.attorneys).map(([key, a]) => ({ key, last: a.name.replace(/,.*$/, "").trim().split(/\s+/).pop().toLowerCase(), name: a.name }));
+const attorneys = Object.entries(site.attorneys).map(([key, a]) => { const parts = a.name.replace(/,.*$/, "").trim().split(/\s+/);
+  return { key, first: parts[0].toLowerCase(), last: parts[parts.length - 1].toLowerCase(), name: a.name, sources: a.photo_sources || [] }; });
 mkdirSync(join(ROOT, "assets/img/attorneys"), { recursive: true });
 
 /* 1. attorney headshots */
@@ -97,8 +124,17 @@ for (const url of pages) {
     const others = attorneys.filter(o => o.key !== a.key).map(o => o.last);
     const hit = findHeadshot(html, url, a, others);
     if (hit) { found[a.key] = hit; continue; }
+    // fall back to the attorney's own profile page: a link on this page, common slug guesses, then any
+    // extra photo_sources listed for the attorney in content/site.json (e.g. a personal site)
     const prof = links.find(l => l && l.toLowerCase().includes(a.last));
-    if (prof) { try { const ph = await get(prof); const pi = findHeadshot(ph, prof, a, others) || imgs(ph, prof).find(i => /attorney|headshot|profile|team|portrait/i.test(i.cls + " " + i.src) && !isJunk(i))?.src; if (pi) found[a.key] = pi; } catch {} }
+    const guesses = [...new Set([prof, `${BASE}/legal-team/${a.first}-${a.last}/`, `${BASE}/legal-team/${a.first}-${a.last}-esq/`, `${BASE}/attorneys/${a.first}-${a.last}/`, `${BASE}/${a.first}-${a.last}/`, ...a.sources].filter(Boolean))];
+    for (const u of guesses) {
+      if (found[a.key]) break;
+      try { const ph = await get(u); console.log("  checked", u);
+        const pi = findHeadshot(ph, u, a, others) || imgs(ph, u).find(i => /attorney|headshot|profile|team|portrait|founder|hero/i.test(i.cls + " " + i.src) && !isJunk(i))?.src;
+        if (pi) found[a.key] = pi;
+      } catch {}
+    }
   }
 }
 for (const a of attorneys) {

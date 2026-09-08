@@ -52,10 +52,31 @@
     "BBB Accredited"
   ],
   "attorneys": {
-    "saadian": {"name": "Bobby Saadian, Esq.", "title": "Founder & President · National Trial Lawyers Top 100", "initials": "BS"},
-    "yslas": {"name": "John G. Yslas, Esq.", "title": "Senior Partner · Chair, Employment Wage & Hour Class Action", "initials": "JY"},
-    "fattahi": {"name": "Arrash T. Fattahi, Esq.", "title": "Partner · Labor & Employment Litigation", "initials": "AF"},
-    "marquez": {"name": "Justin F. Marquez, Esq.", "title": "Senior Partner", "initials": "JM"}
+    "saadian": {
+      "name": "Bobby Saadian, Esq.",
+      "title": "Founder & President · National Trial Lawyers Top 100",
+      "initials": "BS",
+      "photo_sources": [
+        "https://www.bobbysaadian.com/",
+        "https://wilshirelawfirm.com/bobby-saadian/",
+        "https://wilshirelawfirm.com/legal-team/bobby-saadian-esq/"
+      ]
+    },
+    "yslas": {
+      "name": "John G. Yslas, Esq.",
+      "title": "Senior Partner · Chair, Employment Wage & Hour Class Action",
+      "initials": "JY"
+    },
+    "fattahi": {
+      "name": "Arrash T. Fattahi, Esq.",
+      "title": "Partner · Labor & Employment Litigation",
+      "initials": "AF"
+    },
+    "marquez": {
+      "name": "Justin F. Marquez, Esq.",
+      "title": "Senior Partner",
+      "initials": "JM"
+    }
   },
   "attorneys_note": "Headshots could not be pulled (firm site egress-blocked). Drop photos into assets/img/attorneys/<key>.jpg and the build will use them automatically instead of initials.",
   "languages_line": "Se habla español — intake and consultations available in English and Spanish, 24/7.",
