@@ -84,8 +84,8 @@
     "formspree_id": "",
     "formspree_note": "LAUNCH BLOCKER unless deploying on Netlify: create a form at formspree.io, paste the ID here (formspree.io/f/THIS-PART), rebuild. Subject line per lead: 'WilshirePPC — <practice> — <city>'.",
     "subject_prefix": "WilshirePPC",
-    "netlify": true,
-    "netlify_note": "On Netlify, forms work with zero config (submissions in the Netlify dashboard; add email/SMS notifications there). On Vercel or any other host you MUST set endpoint or formspree_id."
+    "netlify": false,
+    "netlify_note": "Set true ONLY when deploying on Netlify (Netlify Forms then captures submissions with zero config). Leave false on Vercel. With netlify=false and no endpoint/formspree_id the form runs in DEMO MODE: it validates, shows the success card and redirects to /thank-you/, but sends nothing — fine for client review, a launch blocker for ads."
   },
   "gtm_id": "",
   "gtm_note": "Paste the firm's GTM container (GTM-XXXXXXX). Pages push dataLayer events: call_click, lead_form_submit (on /thank-you/), lead_form_error, kw_variant. Fire Google Ads conversions on call_click and lead_form_submit. Count calls as conversions.",

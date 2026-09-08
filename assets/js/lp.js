@@ -135,7 +135,7 @@
     setTimeout(function(){ fail("timeout", "no response after 12s"); }, 12000);
     var fd = new FormData(form);
     var mode = C.endpoint ? "json" : (C.netlify ? "netlify" : "none");
-    if (mode === "none") { ok(); return; }
+    if (mode === "none") { try { console.warn("Lead form is in DEMO MODE — no backend configured (content/site.json → form). Nothing was sent."); } catch(e){} ok(); return; }
     try {
       if (mode === "json") {
         var payload = {}; fd.forEach(function(v,k){ payload[k] = v; });
