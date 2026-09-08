@@ -1,6 +1,6 @@
 /* Wilshire Law Firm — PPC landing page design system (mobile-first, system fonts, no external deps) */
 :root{
-  --navy:#0b1e3f;--navy-deep:#071429;--navy-ink:#12305f;
+  --navy:#0b223f;--navy-deep:#071429;--navy-ink:#12305f;
   --gold:#c9a24a;--gold-ink:#8a6a1f;--cta:#f2b632;--cta-hover:#e3a51f;
   --ink:#131a2a;--slate:#566173;--muted:#7a8496;
   --paper:#ffffff;--soft:#f7f5f0;--mist:#eef2f8;--line:#dbe2ec;
@@ -30,8 +30,9 @@ b,strong{font-weight:800}
 .hd-in{max-width:1180px;margin:0 auto;padding:10px 20px;display:flex;align-items:center;justify-content:space-between;gap:12px}
 .logo{display:inline-flex;align-items:center;gap:10px;text-decoration:none;color:var(--navy)}
 .logo svg{height:34px;width:auto}
-.logo-img{height:40px;width:auto;max-width:240px}
-@media(max-width:700px){.logo-img{height:32px;max-width:170px}}
+.logo-img{height:58px;width:auto;max-width:280px}
+footer .logo-img{height:48px}
+@media(max-width:700px){.logo-img{height:44px;max-width:200px}}
 .logo-txt{display:flex;flex-direction:column;line-height:1}
 .logo-txt b{font-size:.98rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase}
 .logo-txt span{font-size:.58rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-ink);margin-top:4px}

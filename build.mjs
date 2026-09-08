@@ -85,11 +85,11 @@ function logoHtml(){
   // Official wordmark wins when present (assets/img/logo.png|webp|jpg, or an SVG wider than it is tall);
   // otherwise the placeholder monogram + text wordmark is used.
   const raster = [".png", ".webp", ".jpg"].find(x => existsSync(join(ROOT, "assets/img/logo" + x)));
-  if (raster) return `<a class="logo" href="#top" aria-label="${e(site.firm_name)}"><img class="logo-img" src="/assets/img/logo${raster}" alt="${e(site.firm_name)}" height="40"></a>`;
+  if (raster) return `<a class="logo" href="#top" aria-label="${e(site.firm_name)}"><img class="logo-img" src="/assets/img/logo${raster}" alt="${e(site.firm_name)}" height="58"></a>`;
   const svg = readFileSync(join(ROOT, "assets/img/logo.svg"), "utf8").replace(/<\?xml[^>]*>/, "");
   const vb = svg.match(/viewBox="[\d.\s-]*?([\d.]+)\s+([\d.]+)"/);
   const wide = vb && parseFloat(vb[1]) > parseFloat(vb[2]) * 1.6;
-  if (wide) return `<a class="logo" href="#top" aria-label="${e(site.firm_name)}"><img class="logo-img" src="/assets/img/logo.svg" alt="${e(site.firm_name)}" height="40"></a>`;
+  if (wide) return `<a class="logo" href="#top" aria-label="${e(site.firm_name)}"><img class="logo-img" src="/assets/img/logo.svg" alt="${e(site.firm_name)}" height="58"></a>`;
   return `<a class="logo" href="#top" aria-label="${e(site.firm_name)}">${svg}<span class="logo-txt"><b>Wilshire Law Firm</b><span>${e(site.firm_tagline)}</span></span></a>`;
 }
 const LOGO = logoHtml();

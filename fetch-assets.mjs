@@ -62,15 +62,18 @@ function urlScan(html, page, a) {
   const re = /https?:\/\/[^"'\\\s<>()]+?\.(?:png|jpe?g|webp)(?:\?[^"'\\\s<>()]*)?/gi; let m;
   while ((m = re.exec(txt))) {
     const u = m[0]; const f = u.split("?")[0].split("/").pop().toLowerCase();
-    if (/logo|icon|badge|award|sprite|favicon|placeholder/.test(f)) continue;
+    if (/logo|icon|badge|award|sprite|favicon|placeholder/.test(f) || SOCIAL.test(f)) continue;
     if (f.includes(a.last) || (a.first.length > 3 && f.includes(a.first))) return abs(u, page);
   }
   return null;
 }
+// filename (last path segment, decoded) — never the hostname, so bobbysaadian.com doesn't match every image on it
+const fname = src => { try { const u = new URL(src); const inner = u.searchParams.get("url"); return decodeURIComponent((inner ? new URL(inner, u).pathname : u.pathname).split("/").pop() || "").toLowerCase(); } catch { return String(src).split("/").pop().toLowerCase(); } };
+const SOCIAL = /instagram|facebook|linkedin|twitter|youtube|tiktok|yelp|avvo|social|asset-?\d/i;
 function findHeadshot(html, page, a, others) {
-  const list = imgs(html, page);
-  const direct = list.find(i => (i.alt + " " + i.src).toLowerCase().includes(a.last) && !isJunk(i))
-    || list.find(i => a.first.length > 3 && (i.alt + " " + decodeURIComponent(i.src)).toLowerCase().includes(a.first) && !isJunk(i));
+  const list = imgs(html, page).filter(i => !SOCIAL.test(fname(i.src) + " " + i.alt + " " + i.cls));
+  const direct = list.find(i => (i.alt + " " + fname(i.src)).includes(a.last) && !isJunk(i))
+    || list.find(i => a.first.length > 3 && (i.alt.toLowerCase() + " " + fname(i.src)).includes(a.first) && !isJunk(i));
   if (direct) return direct.src;
   const lower = html.toLowerCase(); let pos = 0;
   while ((pos = lower.indexOf(a.last, pos)) !== -1) {
@@ -130,8 +133,10 @@ for (const url of pages) {
     const guesses = [...new Set([prof, `${BASE}/legal-team/${a.first}-${a.last}/`, `${BASE}/legal-team/${a.first}-${a.last}-esq/`, `${BASE}/attorneys/${a.first}-${a.last}/`, `${BASE}/${a.first}-${a.last}/`, ...a.sources].filter(Boolean))];
     for (const u of guesses) {
       if (found[a.key]) break;
+      if (/\.(png|jpe?g|webp)(\?.*)?$/i.test(u)) { found[a.key] = u; console.log("  using direct image source", u); break; }   // photo_sources may point straight at an image
       try { const ph = await get(u); console.log("  checked", u);
-        const pi = findHeadshot(ph, u, a, others) || imgs(ph, u).find(i => /attorney|headshot|profile|team|portrait|founder|hero/i.test(i.cls + " " + i.src) && !isJunk(i))?.src;
+        if (ph === html) { console.log("  (soft 404 — same page as the directory; ignored)"); continue; }   // Next.js sites often serve the listing page for unknown slugs
+        const pi = findHeadshot(ph, u, a, others);   // name-based matches only — never "any team/profile-looking image"
         if (pi) found[a.key] = pi;
       } catch {}
     }

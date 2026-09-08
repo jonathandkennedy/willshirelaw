@@ -57,10 +57,11 @@
       "title": "Founder & President · National Trial Lawyers Top 100",
       "initials": "BS",
       "photo_sources": [
+        "https://www.bobbysaadian.com/wp-content/uploads/2023/08/bobby-saadian-bio.jpg",
         "https://www.bobbysaadian.com/",
-        "https://wilshirelawfirm.com/bobby-saadian/",
-        "https://wilshirelawfirm.com/legal-team/bobby-saadian-esq/"
-      ]
+        "https://wilshirelawfirm.com/about-us/"
+      ],
+      "photo_note": "Bobby Saadian is not listed on wilshirelawfirm.com/legal-team/ (checked 2026-09-08), so his headshot comes from his personal site bobbysaadian.com (bio photo). Swap for an official firm headshot if the firm supplies one: assets/img/attorneys/saadian.jpg"
     },
     "yslas": {
       "name": "John G. Yslas, Esq.",
@@ -71,11 +72,6 @@
       "name": "Arrash T. Fattahi, Esq.",
       "title": "Partner · Labor & Employment Litigation",
       "initials": "AF"
-    },
-    "marquez": {
-      "name": "Justin F. Marquez, Esq.",
-      "title": "Senior Partner",
-      "initials": "JM"
     }
   },
   "attorneys_note": "Headshots could not be pulled (firm site egress-blocked). Drop photos into assets/img/attorneys/<key>.jpg and the build will use them automatically instead of initials.",
