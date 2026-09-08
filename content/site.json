@@ -61,7 +61,7 @@
         "https://www.bobbysaadian.com/",
         "https://wilshirelawfirm.com/about-us/"
       ],
-      "photo_note": "Bobby Saadian is not listed on wilshirelawfirm.com/legal-team/ (checked 2026-09-08), so his headshot comes from his personal site bobbysaadian.com (bio photo). Swap for an official firm headshot if the firm supplies one: assets/img/attorneys/saadian.jpg"
+      "photo_note": "Bobby Saadian is not listed on wilshirelawfirm.com/legal-team/ (checked 2026-09-08). Headshot = his bobbysaadian.com bio photo, pre-cropped to head-and-shoulders (original kept at research/saadian-original.jpg). fetch-assets.mjs will NOT overwrite it unless run with --force. Swap for an official firm headshot if the firm supplies one."
     },
     "yslas": {
       "name": "John G. Yslas, Esq.",
